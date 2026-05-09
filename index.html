@@ -17,16 +17,15 @@
                 whats up? this is a hand-crafted, minimalist space for my thoughts, deep-dives, and media reviews.
             </p>
             <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 30px 0;">
-            <h2>Recent</h2>
-            <ul style="list-style: none; padding: 0; margin: 0;">
-                <li style="margin-bottom: 20px;">
-                    <div class="meta-date" style="display: inline-block; width: 110px;">2026-05-09</div>
-                    <a href="post-template.md" style="font-weight: bold; font-size: 1.1rem;">Review: Template</a>
+            <h2>Recent Posts</h2>
+            <ul>
+              {% assign reviews = site.pages | where_exp: "item", "item.path contains 'reviews/'" | sort: "date" | reverse %}
+              {% for review in reviews limit: 5 %}
+                <li>
+                  <a href="{{ review.url }}">{{ review.title }}</a> 
+                  - {{ review.date | date: "%b %d, %Y" }}
                 </li>
-                <li style="margin-bottom: 20px;">
-                    <div class="meta-date" style="display: inline-block; width: 110px;">2026-05-01</div>
-                    <a href="#" style="font-weight: bold; font-size: 1.1rem; color: var(--meta-text); pointer-events: none;">Coming Soon: Another Media Review</a>
-                </li>
+              {% endfor %}
             </ul>
         </main>
         <footer>
