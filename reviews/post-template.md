@@ -1,21 +1,23 @@
 ---
 layout: post
-title: "Review: Neon Abyss"
+title: "Review: totally real media"
 date: 2026-05-10
 ---
 
-Write your introduction here. It's so much faster without HTML tags!
+intro and such. lets use a ton of punctation!!!!!?!?!2351967%&@^!7/+...
+markdown text looks like this, huh?
 
-### The Gameplay
-* Quick-paced action
-* Great item synergy
-* Slightly too much RNG
+### Big Heading
+* temperance
+* gungeon girl
+* dotpoint 3
+* horsle
 
-You can still use your custom HTML components directly in this file when you need them:
+I can still use custom HTML components directly in this file when I need them:
 
 <div class="review-card">
     <div class="review-details">
-        <h2>Game Info</h2>
-        <div class="rating">RATING: 8.5/10</div>
+        <h2>INFO CARD</h2>
+        <div class="rating">RATING: 11/10</div>
     </div>
 </div>
