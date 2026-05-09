@@ -13,7 +13,7 @@
     <div class="container">
         <header>
             <h1>something something itsa homepage!</h1>
-            <div class="meta-date">and this is a subheading</div>
+            <div class="meta-date">and this is a subheading.</div>
         </header>
         <main>
             <p>
@@ -23,7 +23,7 @@
             <h2>Recent Posts</h2>
             <ul>
               {% assign reviews = site.pages | where_exp: "item", "item.path contains 'reviews/'" | sort: "date" | reverse %}
-              {% for review in reviews limit: 5 %}
+              {% for review in reviews limit: 10 %}
                 <li>
                   <a href="{{ review.url }}">{{ review.title }}</a> 
                   - {{ review.date | date: "%b %d, %Y" }}
