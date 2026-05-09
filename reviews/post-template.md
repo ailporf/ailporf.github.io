@@ -22,5 +22,5 @@ I can still use custom HTML components directly in this file when I need them:
     </div>
 </div>
 <footer>
-    <p>&copy; {{ "now" | date: "%Y" }} AJ Aureli. All rights reserved. Hosted on GitHub Pages. Yes, it's really Chan writing this.</p>
+    <p>&copy; {{ "now" | date: "%Y" }} AJ Aureli. All rights reserved.</p>
 </footer>
