@@ -20,6 +20,10 @@ body {
     min-height: 100vh;
 }
 
+main {
+    flex: 1;
+}
+
 /* Restricts the text line-length for optimal reading comfort */
 .container {
     max-width: 680px; 
