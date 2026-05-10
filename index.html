@@ -15,22 +15,33 @@
             <h1>something something itsa homepage!</h1>
             <div class="meta-date">and this is a subheading.</div>
         </header>
+        
         <main>
-            <p>
-                whats up? this is a hand-crafted, minimalist space for my thoughts, deep-dives, and media reviews.
-            </p>
-            <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 30px 0;">
-            <h2>Recent Posts</h2>
-            <ul>
-              {% assign reviews = site.pages | where_exp: "item", "item.path contains 'reviews/'" | sort: "date" | reverse %}
-              {% for review in reviews limit: 10 %}
-                <li>
-                  <a href="{{ review.url }}">{{ review.title }}</a> 
-                  - {{ review.date | date: "%b %d, %Y" }}
-                </li>
-              {% endfor %}
-            </ul>
+            <div class="layout-grid">
+                <section class="column-main">
+                    <p>
+                        whats up? this is a hand-crafted, minimalist space for my thoughts, deep-dives, and media reviews.
+                    </p>
+                    <p>
+                        I focus on analyzing mechanics, internal consistency, and systematic rules—whether that's in game design, programming architecture, or speculative fiction worlds.
+                    </p>
+                </section>
+
+                <aside class="column-sidebar">
+                    <h2>Recent Posts</h2>
+                    <ul class="recent-posts-list">
+                      {% assign reviews = site.pages | where_exp: "item", "item.path contains 'reviews/'" | sort: "date" | reverse %}
+                      {% for review in reviews limit: 10 %}
+                        <li>
+                          <a href="{{ review.url }}">{{ review.title }}</a> 
+                          <span class="post-date">{{ review.date | date: "%b %d, %Y" }}</span>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                </aside>
+            </div>
         </main>
+        
         <footer>
             <p>&copy; {{ "now" | date: "%Y" }} AJ Aureli. All rights reserved.</p>
             <p>Hosted on GitHub Pages. Yes, it's really Chan writing this.</p>
