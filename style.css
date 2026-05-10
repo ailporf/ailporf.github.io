@@ -17,17 +17,22 @@ body {
     margin: 0;
     padding: 40px 20px;
     display: flex;
+    flex-direction: column; /* Force column layout to easily anchor footer */
     min-height: 100vh;
 }
 
 main {
-    flex: 1;
+    flex: 1; /* Pushes footer to the bottom if content is short */
 }
 
-/* Restricts the text line-length for optimal reading comfort */
+/* Widen the container to 960px so a two-column desktop layout feels spacious */
 .container {
-    max-width: 680px; 
+    max-width: 960px; 
+    width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 header {
@@ -61,6 +66,69 @@ a:hover {
 p {
     margin: 0 0 1.5rem 0;
     font-size: 1.05rem;
+}
+
+/* --- THE 60/40 GRID LAYOUT --- */
+.layout-grid {
+    display: grid;
+    /* Split into 60% and 40% with a 60px gap */
+    grid-template-columns: 1.5fr 1fr; 
+    gap: 60px;
+    align-items: start;
+}
+
+.column-main {
+    /* Main body styling */
+}
+
+.column-sidebar {
+    border-left: 1px solid var(--border-color);
+    padding-left: 40px;
+}
+
+.column-sidebar h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Clean up the default bullet list styles in the sidebar */
+.recent-posts-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-posts-list li {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column; /* Stacks title and date cleanly */
+    font-size: 0.95rem;
+}
+
+.recent-posts-list .post-date {
+    font-size: 0.8rem;
+    color: var(--meta-text);
+    font-family: monospace;
+}
+
+/* --- RESPONSIVE MOBILE FIX --- */
+@media (max-width: 768px) {
+    /* Stack the columns vertically on tablets/phones */
+    .layout-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .column-sidebar {
+        border-left: none;
+        border-top: 1px solid var(--border-color);
+        padding-left: 0;
+        padding-top: 30px;
+    }
 }
 
 /* --- MEDIA REVIEW CARD COMPONENT --- */
@@ -161,7 +229,7 @@ footer {
     margin-top: 60px;
     border-top: 1px solid var(--border-color);
     padding-top: 20px;
-    font-size: 0.5rem;
+    font-size: 0.75rem; /* Slightly larger than 0.5rem for better readability */
     color: var(--meta-text);
     text-align: center;
 }
