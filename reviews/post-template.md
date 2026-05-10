@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Review: totally real media"
+title: "Review: media review template"
 date: 2026-05-10
 ---
 
