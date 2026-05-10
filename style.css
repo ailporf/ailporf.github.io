@@ -16,6 +16,8 @@ body {
     line-height: 1.7;
     margin: 0;
     padding: 40px 20px;
+    display: flex;
+    min-height: 100vh;
 }
 
 /* Restricts the text line-length for optimal reading comfort */
