@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <header>
-            <p><a href="/">← Back to Index</a></p>
+            {% include nav.html %}
             <h1>{{ page.title }}</h1>
             <div class="meta-date">PUBLISHED: {{ page.date | date: "%Y-%m-%d" }}</div>
         </header>
