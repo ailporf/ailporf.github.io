@@ -30,7 +30,7 @@
                     {% endif %}
                     
                     {% if page.read_count and page.read_count > 1 %}
-                        <li><strong>Read Count:</strong> {{ page.read_count }}x (Reread)</li>
+                        <li><strong>Read Count:</strong> {{ page.read_count }} x (Reread)</li>
                         {% if page.latest_read_date %}
                             <li><strong>Latest Read:</strong> {{ page.latest_read_date | date: "%b %d, %Y" }}</li>
                         {% endif %}
