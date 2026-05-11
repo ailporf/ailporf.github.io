@@ -1,6 +1,6 @@
 ---
 layout: rant
-title: "Rant Template"
+title: "RANT Template"
 date: 2026-05-11
 
 # --- Optional Rant Metadata ---

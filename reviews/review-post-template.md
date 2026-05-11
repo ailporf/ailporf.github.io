@@ -1,6 +1,6 @@
 ---
 layout: review
-title: "Review Template"
+title: "REVIEW Template"
 date: 2026-05-10                # The publication date of your review
 
 # --- Custom Reading History Metadata ---
