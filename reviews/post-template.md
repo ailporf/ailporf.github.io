@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Template"
+title: "Review Template"
 date: 2026-05-11                # The publication date of your review
 
 # --- Custom Reading History Metadata ---
