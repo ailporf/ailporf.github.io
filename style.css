@@ -81,6 +81,15 @@ p {
     /* Main body styling */
 }
 
+.column-main h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 .column-sidebar {
     border-left: 1px solid var(--border-color);
     padding-left: 40px;
