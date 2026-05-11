@@ -13,7 +13,7 @@
     <div class="container">
         <header>
             {% include nav.html %}
-            <h1 style="margin-top: 20px; margin-bottom: 5px;">AJ AURELI</h1>
+            <h1 style="font-size: 3rem; margin-top: 20px; margin-bottom: 5px;">AJ AURELI</h1>
             <div class="meta-date" style="margin-bottom: 30px;">AKA ailporf, Chan, or "that guy"</div>
         </header>
         <main>
@@ -51,7 +51,7 @@
                     {% assign raw_pages = site.pages | sort: "date" | reverse %}
                     {% assign count = 0 %}
                     {% for post in raw_pages %}
-                        {% if post.path contains 'reviews/' or post.path contains 'rants/' %}
+                        {% if post.path contains 'reviews/' or post.path contains 'rants/' or post.path contains 'riffs/' %}
                         {% if count < 10 %}
                             <li>
                             <a href="{{ post.url }}">{{ post.title }}</a> 
