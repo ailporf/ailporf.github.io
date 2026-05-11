@@ -4,9 +4,7 @@ title: RIFFS
 ---
 <div class="container">
     <header>
-        {% include nav.html %}
-        <h1>Riffs</h1>
-        <div class="meta-date">High-frequency, low-friction micro-thoughts. 10-150 words.</div>
+        <div class="meta-date">High-frequency micro-thoughts. 10-150 words.</div>
     </header>
     <main class="riff-archive-layout">
         {% assign riffs = site.pages | where_exp: "item", "item.path contains 'riffs/'" | where_exp: "item", "item.path contains '.md'" | sort: "date" | reverse %}
@@ -22,7 +20,7 @@ title: RIFFS
         {% endif %}
             <article class="archive-riff-card">
                 <div class="archive-riff-meta">
-                    <span class="riff-time">{{ riff.date | date: "%d" }}日</span> 
+                    <span class="riff-time">{{ riff.date | date: "%B %e" }}{{riff.date | date: "%d" | ordinal}}</span> 
                     {% if riff.context %}
                     <span class="riff-context">// {{ riff.context }}</span>
                     {% endif %}
