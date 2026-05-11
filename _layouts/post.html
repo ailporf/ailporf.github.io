@@ -14,6 +14,31 @@
             <div class="meta-date">PUBLISHED: {{ page.date | date: "%Y-%m-%d" }}</div>
         </header>
         <main>
+            <div class="review-metadata-panel">
+            <div class="metadata-row status-scope">
+                {% if page.status %}
+                    <span class="status-badge {{ page.status | downcase }}">{{ page.status }}</span>
+                {% endif %}
+                
+                {% if page.evaluated_scope %}
+                    <span class="scope-text">Evaluated: <strong>{{ page.evaluated_scope }}</strong></span>
+                {% endif %}
+            </div>
+            <ul class="reading-history">
+                {% if page.original_read_date %}
+                    <li><strong>First Read:</strong> {{ page.original_read_date | date: "%b %d, %Y" }}</li>
+                {% endif %}
+                
+                {% if page.read_count and page.read_count > 1 %}
+                    <li><strong>Read Count:</strong> {{ page.read_count }}x (Reread)</li>
+                    {% if page.latest_read_date %}
+                        <li><strong>Latest Read:</strong> {{ page.latest_read_date | date: "%b %d, %Y" }}</li>
+                    {% endif %}
+                {% else %}
+                    <li><strong>Read Date:</strong> {% if page.original_read_date %}{{ page.original_read_date | date: "%b %d, %Y" }}{% else %}{{ page.date | date: "%b %d, %Y" }}{% endif %}</li>
+                {% endif %}
+            </ul>
+            </div>
             {{ content }}
         </main>
     </div>
