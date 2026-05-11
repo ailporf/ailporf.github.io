@@ -413,6 +413,52 @@ p {
     margin: 40px 0;
 }
 
+/* --- RIFF ARCHIVE LAYOUT --- */
+.monthly-riff-block {
+    margin-bottom: 50px;
+}
+
+.month-heading {
+    font-family: monospace;
+    font-size: 1.3rem;
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.riffs-group-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.archive-riff-card {
+    background: transparent; /* No heavy backgrounds, keeping it clean like a log */
+    border-left: 2px solid var(--border-color); /* Timeline node aesthetic */
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.archive-riff-card:hover {
+    border-left-color: var(--accent-color);
+}
+
+.archive-riff-meta {
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: var(--meta-text);
+    margin-bottom: 6px;
+    display: flex;
+    gap: 8px;
+}
+
+.riff-time {
+    font-weight: bold;
+    color: #ffffff;
+}
+
 /* --- FOOTER --- */
 footer {
     margin-top: 60px;
