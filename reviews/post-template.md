@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: review
 title: "Review Template"
 date: 2026-05-11                # The publication date of your review
 

@@ -26,17 +26,16 @@
                         insert second paragraph here.
                     </p>
                 </section>
-
                 <aside class="column-sidebar">
-                    <h2>Recent Posts</h2>
+                    <h2>Recent Feed</h2>
                     <ul class="recent-posts-list">
-                      {% assign reviews = site.pages | where_exp: "item", "item.path contains 'reviews/'" | sort: "date" | reverse %}
-                      {% for review in reviews limit: 10 %}
+                    {% assign feed = site.pages | where_exp: "item", "item.path contains 'reviews/' or item.path contains 'rants/'" | sort: "date" | reverse %}
+                    {% for post in feed limit: 10 %}
                         <li>
-                          <a href="{{ review.url }}">{{ review.title }}</a> 
-                          <span class="post-date">{{ review.date | date: "%b %d, %Y" }}</span>
+                        <a href="{{ post.url }}">{{ post.title }}</a> 
+                        <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
                         </li>
-                      {% endfor %}
+                    {% endfor %}
                     </ul>
                 </aside>
             </div>
