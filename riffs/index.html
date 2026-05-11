@@ -1,11 +1,9 @@
 ---
 layout: sub-index
 title: RIFFS
+subheading: High-frequency micro-thoughts. 10-150 words.
 ---
 <div class="container">
-    <header>
-        <div class="meta-date">High-frequency micro-thoughts. 10-150 words.</div>
-    </header>
     <main class="riff-archive-layout">
         {% assign riffs = site.pages | where_exp: "item", "item.path contains 'riffs/'" | where_exp: "item", "item.path contains '.md'" | sort: "date" | reverse %}
         {% for riff in riffs %}
@@ -20,7 +18,7 @@ title: RIFFS
         {% endif %}
             <article class="archive-riff-card">
                 <div class="archive-riff-meta">
-                    <span class="riff-time">{{ riff.date | date: "%B %e" }}{{riff.date | date: "%d" | ordinal}}</span> 
+                    <span class="riff-time">{{ riff.date | date: "%e %B" }}</span> 
                     {% if riff.context %}
                     <span class="riff-context">// {{ riff.context }}</span>
                     {% endif %}
