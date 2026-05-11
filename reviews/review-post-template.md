@@ -10,7 +10,7 @@ latest_read_date: 2026-05-01    # Reread date (Optional)
 
 # --- Scope & Completion Metadata ---
 status: "Completed"               # "Completed", "Ongoing", "Hiatus", "Dropped"
-evaluated_scope: "Chapters 1–103" # Exact chapters or arcs reviewed
+evaluated_scope: "Chapters 1 - 103" # Exact chapters or arcs reviewed
 ---
 
 intro and such. lets use a ton of punctation!!!!!?!?!2351967%&@^!7/+...
