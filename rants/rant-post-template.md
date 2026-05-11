@@ -1,10 +1,10 @@
 ---
 layout: rant
-title: "The Death of Internal Consistency in Modern Speculative Fiction & Why Dogs Look Like That"
+title: "Rant Template"
 date: 2026-05-11
 
 # --- Optional Rant Metadata ---
-subheading: "Seriously man, something about their eyes..."
+subheading: "Subheading of all time"
 topic: "Miscellaneous"  # E.g., Game Design, Writing, Tropes, Tech (Optional)
 read_time: 1            # Estimated read time in minutes (Optional)
 ---

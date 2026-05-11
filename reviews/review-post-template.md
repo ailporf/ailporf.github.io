@@ -1,7 +1,7 @@
 ---
 layout: review
 title: "Review Template"
-date: 2026-05-11                # The publication date of your review
+date: 2026-05-10                # The publication date of your review
 
 # --- Custom Reading History Metadata ---
 original_read_date: 2021-08-15  # When you first experienced it (Optional)
