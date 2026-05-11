@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Aureli - {{ page.title }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p><a href="/">← Back to Index</a></p>
+            <h1>{{ page.title }}</h1>
+            <div class="meta-date">PUBLISHED: {{ page.date | date: "%Y-%m-%d" }}</div>
+        </header>
+        <main>
+            <div class="meta-panel">
+                {% if page.subheading %}
+                <div class="meta-row">
+                    <span class="scope-text"><em>{{ page.subheading }}</em></span>
+                </div>
+            {% endif %}
+            <ul class="meta-list">
+                {% if page.topic %}
+                    <li><strong>Topic:</strong> {{ page.topic }}</li>
+                {% endif %}
+                {% if page.read_time %}
+                    <li><strong>Read Time:</strong> {{ page.read_time }} min</li>
+                {% endif %}
+            </ul>
+            </div>
+            {{ content }}
+        </main>
+        <footer>
+            <p>&copy; {{ "now" | date: "%Y" }} AJ Aureli. All rights reserved.</p>
+            <p>Hosted on GitHub Pages. Yes, it's really Chan writing this.</p>
+        </footer>
+    </div>
+</body>
+</html>

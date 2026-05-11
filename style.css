@@ -224,8 +224,8 @@ p {
     text-align: center;
 }
 
-/* --- REVIEW METADATA PANEL --- */
-.review-metadata-panel {
+/* --- AGNOSTIC METADATA PANEL --- */
+.meta-panel {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 6px;
@@ -234,7 +234,7 @@ p {
     font-size: 0.9rem;
 }
 
-.metadata-row {
+.meta-row {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -288,8 +288,8 @@ p {
     color: #ffffff;
 }
 
-/* Reading History List */
-.reading-history {
+/* Horizontal Metadata List */
+.meta-list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -298,12 +298,12 @@ p {
     gap: 20px;
 }
 
-.reading-history li {
+.meta-list li {
     font-family: monospace;
     color: var(--meta-text);
 }
 
-.reading-history li strong {
+.meta-list li strong {
     color: var(--text-color);
 }
 

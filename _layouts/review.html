@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>AJ Aureli - {{ page.title }}</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
@@ -14,30 +14,20 @@
             <div class="meta-date">PUBLISHED: {{ page.date | date: "%Y-%m-%d" }}</div>
         </header>
         <main>
-            <div class="review-metadata-panel">
-            <div class="metadata-row status-scope">
-                {% if page.status %}
-                    <span class="status-badge {{ page.status | downcase }}">{{ page.status }}</span>
-                {% endif %}
-                
-                {% if page.evaluated_scope %}
-                    <span class="scope-text"><strong>Evaluated: </strong><em>{{ page.evaluated_scope }}</em></span>
-                {% endif %}
-            </div>
-            <ul class="reading-history">
-                {% if page.original_read_date %}
-                    <li><strong>First Read:</strong> {{ page.original_read_date | date: "%b %d, %Y" }}</li>
-                {% endif %}
-                
-                {% if page.read_count and page.read_count > 1 %}
-                    <li><strong>Read Count:</strong> {{ page.read_count }} x (Reread)</li>
-                    {% if page.latest_read_date %}
-                        <li><strong>Latest Read:</strong> {{ page.latest_read_date | date: "%b %d, %Y" }}</li>
+            <div class="meta-panel">
+                <div class="meta-row">
+                    {% if page.status %}
+                        <span class="status-badge {{ page.status | downcase }}">{{ page.status }}</span>
                     {% endif %}
-                {% else %}
-                    <li><strong>Read Date:</strong> {% if page.original_read_date %}{{ page.original_read_date | date: "%b %d, %Y" }}{% else %}{{ page.date | date: "%b %d, %Y" }}{% endif %}</li>
-                {% endif %}
-            </ul>
+                    {% if page.evaluated_scope %}
+                        <span class="scope-text"><strong>Evaluated: </strong><em>{{ page.evaluated_scope }}</em></span>
+                    {% endif %}
+                </div>
+                <ul class="meta-list">
+                    {% if page.original_read_date %}
+                        <li><strong>First Read:</strong> {{ page.original_read_date | date: "%b %d, %Y" }}</li>
+                    {% endif %}
+                </ul>
             </div>
             {{ content }}
         </main>
