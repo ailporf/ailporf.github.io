@@ -307,6 +307,60 @@ p {
     color: var(--text-color);
 }
 
+/* --- RIFF CARDS --- */
+.riffs-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.riff-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 16px;
+    transition: border-color 0.2s ease;
+}
+
+.riff-card:hover {
+    border-color: var(--accent-color); /* Subtle highlight on hover */
+}
+
+.riff-header {
+    display: flex;
+    gap: 8px;
+    font-family: monospace;
+    font-size: 0.8rem;
+    color: var(--meta-text);
+    margin-bottom: 10px;
+    border-bottom: 1px dashed var(--border-color);
+    padding-bottom: 6px;
+}
+
+.riff-context {
+    color: var(--accent-color);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.riff-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+.riff-content p {
+    margin: 0; /* Prevents double margins from markdownify */
+}
+
+.section-divider {
+    border: 0;
+    height: 1px;
+    background: var(--border-color);
+    margin: 40px 0;
+}
+
 /* --- FOOTER --- */
 footer {
     margin-top: 60px;
