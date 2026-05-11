@@ -30,6 +30,4 @@ I can still use custom HTML components directly in this file when I need them:
         <div class="rating">RATING: 11/10</div>
     </div>
 </div>
-<footer>
-    <p>&copy; {{ "now" | date: "%Y" }} AJ Aureli. All rights reserved.</p>
-</footer>
+
