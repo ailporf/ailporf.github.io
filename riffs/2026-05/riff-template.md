@@ -1,5 +1,6 @@
 ---
 layout: null
+title: "RIFF Template"
 date: 2026-05-11
 context: "Miscellaneous" # Optional: gives the reader quick situational framing
 ---
