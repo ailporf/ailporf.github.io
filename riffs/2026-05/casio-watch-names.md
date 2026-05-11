@@ -1,6 +1,5 @@
 ---
 layout: null
-title: "CASIO Watch Names"
 date: 2026-05-11
 context: "Horology" # Optional: gives the reader quick situational framing
 ---
