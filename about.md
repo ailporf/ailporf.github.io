@@ -1,10 +1,10 @@
 ---
 layout: null
-title: AJ Aureli - About
 ---
 
 <head>
     <meta charset="UTF-8">
+    <title>AJ Aureli - About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +14,7 @@ title: AJ Aureli - About
             {% include nav.html %}
         </header>
         <main>
-            hello. this is a hand-crafted, minimalist space for my thoughts, rants, and reviews.
+            brohome
         </main>
         <footer>
             <p>&copy; {{ "now" | date: "%Y" }} AJ Aureli. All rights reserved.</p>
