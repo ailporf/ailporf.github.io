@@ -33,6 +33,7 @@
     display: flex;
     align-items: center;
     gap: 12px;
+    flex-grow: 1;
 }
 
 .global-nav a {
