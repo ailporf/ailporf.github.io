@@ -1,14 +1,14 @@
 ---
 layout: sub-index
-title: REVIEWS
-subheading: In-depth, long-form reviews of media, products, and experiences. Variable length, but usually 500-2000 words.
+title: RANTS
+subheading: Unfiltered, stream-of-consciousness rants on any topic that catches my attention. Variable length, but usually 300-2000 words.
 ---
 <div class="search-wrapper">
     <input type="text" id="index-search" placeholder="Filter by title..." autocomplete="off">
 </div>
 
 <main class="dense-list-layout">
-    {% assign posts = site.pages | where_exp: "item", "item.path contains 'reviews/'" | where_exp: "item", "item.path contains '.html'" | sort: "date" | reverse %}
+    {% assign posts = site.pages | where_exp: "item", "item.path contains 'rants/'" | where_exp: "item", "item.path contains '.md'" | sort: "date" | reverse %}
     
     <ul class="filterable-list" id="post-list">
         {% for post in posts %}
@@ -38,7 +38,3 @@ subheading: In-depth, long-form reviews of media, products, and experiences. Var
         });
     });
 </script>
-
-
-
-print "hello world!"
