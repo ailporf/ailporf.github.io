@@ -5,4 +5,5 @@ context: "Blogging" # Optional: gives the reader quick situational framing
 ---
 Until now, I've been thinking about blogging as some sort of completable activity. <br>
 Or more accurately, like it's a goal I need to hit - like 100 stories reviewed, or a site coded with every sort of functionality I can fit in. <br>
-But I've realised that blogging isn't like a game you can 100%, it's a continuous activity. I have to allow myself to feel successful without having to reread and review every single thing I've ever read.
+But I've realised that blogging isn't like a game you can 100%; It's a continuous activity. <br>
+I have to allow myself to feel successful without having to reread and review every single thing I've ever read. And that's actually kinda hard.
