@@ -210,6 +210,21 @@ p {
     .review-card {
         grid-template-columns: 1fr; /* Stack vertically on mobile */
     }
+    /* Force the links container to drop down when out of horizontal space */
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 8px 16px; /* 8px vertical gap between rows, 16px between links */
+    }
+
+    /* Wipe out the slashes on mobile so text doesn't wrap into single characters */
+    .nav-links .nav-separator {
+        display: none;
+    }
+
+    /* Kill the far-right spacer on mobile so ABOUT nests neatly into the text cluster */
+    .nav-right-separator {
+        margin-left: 0;
+    }
 }
 
 .review-details h2 {
