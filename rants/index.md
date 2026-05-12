@@ -1,0 +1,40 @@
+---
+layout: sub-index
+title: RANTS
+subheading: Unfiltered, stream-of-consciousness rants on any topic that catches my attention. Variable length, but usually 300-2000 words.
+---
+<div class="search-wrapper">
+    <input type="text" id="index-search" placeholder="Filter by title..." autocomplete="off">
+</div>
+
+<main class="dense-list-layout">
+    {% assign posts = site.pages | where_exp: "item", "item.path contains 'rants/'" | where_exp: "item", "item.path contains '.html'" | sort: "date" | reverse %}
+    
+    <ul class="filterable-list" id="post-list">
+        {% for post in posts %}
+            <li class="dense-post-item" data-title="{{ post.title | downcase }}">
+                <span class="dense-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                <a href="{{ post.url }}" class="dense-post-link">{{ post.title }}</a>
+                {% if post.status %}
+                    <span class="dense-badge {{ post.status | downcase }}">{{ post.status }}</span>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</main>
+
+<script>
+    document.getElementById('index-search').addEventListener('input', function(e) {
+        const query = e.target.value.toLowerCase().trim();
+        const items = document.querySelectorAll('.dense-post-item');
+        
+        items.forEach(item => {
+            const title = item.getAttribute('data-title');
+            if (title.includes(query)) {
+                item.style.display = 'flex';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+</script>
