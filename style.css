@@ -210,20 +210,36 @@ p {
     .review-card {
         grid-template-columns: 1fr; /* Stack vertically on mobile */
     }
-    /* Force the links container to drop down when out of horizontal space */
+    
+    .global-nav {
+        font-size: 1.1rem; /* Scaled down slightly so it sits on screen comfortably */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
     .nav-links {
-        flex-wrap: wrap;
-        gap: 8px 16px; /* 8px vertical gap between rows, 16px between links */
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 perfect, equal-width columns */
+        gap: 0;
+        border: 1px solid var(--border-color);
+        text-align: center;
     }
 
-    /* Wipe out the slashes on mobile so text doesn't wrap into single characters */
-    .nav-links .nav-separator {
+    .nav-links a {
+        padding: 6px 0;
+        font-size: 0.85rem;
+        border-right: 1px solid var(--border-color);
+    }
+
+    .nav-links a:last-child {
+        border-right: none;
+    }
+
+    /* Clear out all the separator spans entirely */
+    .global-nav .nav-separator {
         display: none;
-    }
-
-    /* Kill the far-right spacer on mobile so ABOUT nests neatly into the text cluster */
-    .nav-right-separator {
-        margin-left: 0;
     }
 }
 
