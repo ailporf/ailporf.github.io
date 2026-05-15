@@ -37,7 +37,8 @@ It does make me wonder: is this the result of how I grew up? Some past traumatic
 <br> Not to psychoanalyse myself too much here, but I also think it has to do with control. I came to this realisation recently too; what human *doesn't* want to be in control. 
 <br> Responsibility aside, *control* itself is something everyone wants in a vacuum, because no control means no form of safety. We are biologically wired to want that stuff. 
 
-At some unknown point in my life, maybe early high school, I must have come to the emotional or logical conclusion that the world and the people in it should not be under my control. <p style="text-align:center">So what did I do? </p>
+At some point in my life, maybe early high school, I must have come to the emotional or logical conclusion that the world and the people in it should not be under my control. 
+<p style="text-align:center">So what did I do? </p>
 <br> I learned to control *myself* as much as possible, which meant doing anything I set out to do in the most <u>intentional</u> way possible. 
 
 Even now, I'm writing this rant in such a structured manner even though I originally set out to just get my thoughts out there.
@@ -76,12 +77,12 @@ And at that point, I'd just be thinking, "If you're gonna feel so bad about it, 
 <br> And again, "Stop thinking about this, it's wasting time and energy. Do your other work since you're not doing your digital solutions. Lazy bum."
 <br> Then, "Right. Yes, I'll get back to work. I shouldn't worry about something I've chosen not to worry about."
 
-It's a pretty vicious cycle, right?
 <br> But in the end, I got that solid C, and I was satisfied. Maybe slightly uncomfortable, but satisfied. Because I proved to myself I could didn't have to be at my best all the time. That when it wasn't necessary, I could do nothing at all.
 
-Such a damn backwards problem to have, ain't it?
+Such a damn backwards problem to have...
 
-Sometimes life demands you give up, and it's important that you consider it. Because no matter how long you've lived in your own head, even you can't know everything you think and feel. The most intentional thing you can really do is acknowledge that you're also allowed to *not* be yourself.
+Sometimes life demands you give up, and it's important that you at least *consider* it. 
+<br> Because no matter how long you've lived in your own head, even you can't know everything you think and feel. The most intentional thing you can really do is acknowledge that you're also allowed to *not* be yourself.
 
 It's funny writing all that out quiet, ha.
 
