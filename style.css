@@ -171,7 +171,6 @@ p {
 }
 
 .recent-posts-list li a {
-    font-family: var(--font-family, sans-serif); /* Forces it out of the goofy default font */
     font-size: 0.95rem;
     font-weight: 500;                            /* Gives it a clean, intentional weight */
     text-decoration: none;                       /* Hides the ugly static default underline */
