@@ -31,11 +31,22 @@ badges:
   - "CHARACTER DEVELOPMENT™️"
   - "OH."
 ---
+<div class="spoiler-free-zone" markdown="1">
 
-## The Long Review
+## Section 1: Shakespearean Tragedy but it's a High School Romcom
 
-buhhhhhhh
+This is where you pitch the work. You evaluate the entry barrier, the basic narrative engine, and the production quality. A reader can browse this section completely safely to determine if the story matches their current frequency.
 
-guhhhhhhh
+</div>
 
+<div class="spoiler-gate">
+    <span>CRITICAL WARNING: ANALYSIS BEYOND THIS POINT CONTAINS SPOILERS</span>
+</div>
 
+<div class="spoiler-zone" markdown="1">
+
+## Section 2: System Breakdown (Spoilers Active)
+
+This is where you drop the filter entirely. Now that you aren't protecting the plot, you can dissect the internal logic of **THE TWIST**, critique character deaths, and explain exactly why the ending succeeded or fell off.
+
+</div>

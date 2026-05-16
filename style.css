@@ -504,7 +504,7 @@ p {
     border: 1px solid currentColor;
 }
 
-/* --- INTEGRATED PORF REVIEW EXTENSIONS --- */
+/* --- REVIEWS --- */
 
 /* Main Tier Panel Styling */
 .main-tier-panel {
@@ -526,7 +526,7 @@ p {
 }
 
 /* Color matrix for Tier states */
-.tier-sss { color: #71ffff; }
+.tier-sss { color: #20ffff; }
 .tier-s { color: #ff7878; }
 .tier-a { color: #ffb36c; }
 .tier-b { color: #fffd84; }
@@ -587,6 +587,41 @@ p {
 
 .review-body p {
     margin-bottom: 1.6rem;
+}
+
+/* --- THE SPOILER PERIMETER ENGINE --- */
+
+.spoiler-free-zone {
+    opacity: 0.95;
+}
+
+/* The Warning Gate Banner */
+.spoiler-gate {
+    position: relative;
+    margin: 45px 0;
+    text-align: center;
+    border-top: 1px dashed #ff4d4d;
+    border-bottom: 1px dashed #ff4d4d;
+    padding: 12px 0;
+    background: rgba(255, 77, 77, 0.03);
+    user-select: none;
+}
+
+.spoiler-gate span {
+    font-family: monospace;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #ff4d4d;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Optional Matrix styling for the post-gate content */
+.spoiler-zone {
+    position: relative;
+    background: rgba(255, 255, 255, 0.01);
+    border-left: 1px solid rgba(48, 54, 61, 0.3);
+    padding-left: 20px;
 }
 
 /* --- FOOTER --- */
