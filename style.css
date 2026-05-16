@@ -171,8 +171,17 @@ p {
 }
 
 .recent-posts-list li a {
+    font-family: var(--font-family, sans-serif); /* Forces it out of the goofy default font */
     font-size: 0.95rem;
-    text-decoration: none;
+    font-weight: 500;                            /* Gives it a clean, intentional weight */
+    text-decoration: none;                       /* Hides the ugly static default underline */
+    color: var(--link-color, #ffffff);
+    transition: text-decoration 0.2s ease;
+}
+
+.recent-posts-list li a:hover {
+    text-decoration: underline;                  /* Brings back your hover indicator */
+    color: var(--link-hover-color, var(--accent-color));
 }
 
 .recent-posts-list .post-date {
