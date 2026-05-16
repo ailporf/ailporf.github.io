@@ -166,6 +166,15 @@ p {
     position: relative;
 }
 
+/* Force the main text column to act as a 100% fluid wrapper element */
+.review-body-layout .column-main {
+    display: block;
+    width: 58%;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
 /* Float the sidebar to the right exclusively inside reviews */
 .review-body-layout .column-sidebar {
     float: right;
@@ -175,13 +184,7 @@ p {
     border-left: none; /* Strip grid-based borders */
     border-right: none;
     padding-left: 0;   /* Resets your old grid padding */
-}
-
-/* Force the main text column to act as a 100% fluid wrapper element */
-.review-body-layout .column-main {
-    display: block;
-    width: 100%;
-    overflow: hidden;
+    box-sizing: border-box;
 }
 
 /* Clearfix gate to ensure footer doesn't drift into the float */
