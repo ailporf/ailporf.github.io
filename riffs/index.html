@@ -7,10 +7,11 @@ subheading: High-frequency micro-thoughts. 10-150 words.
     <main class="riff-archive-layout">
         {% assign riffs = site.pages | where_exp: "item", "item.path contains 'riffs/'" | where_exp: "item", "item.path contains '.md'" | sort: "date" | reverse %}
         {% for riff in riffs %}
-        {% unless post.hidden %}
-            {% capture current_month %}{{ riff.date | date: "%B %Y" }}{% endcapture %}
-            {% if current_month != last_month %}
-                {% if last_month %}
+            {% unless post.hidden %}
+                {% capture current_month %}{{ riff.date | date: "%B %Y" }}{% endcapture %}
+                {% if current_month != last_month %}
+                    {% if last_month %}
+            {% endunless %}
 </div> 
 </section> {% endif %}
     <section class="monthly-riff-block">
