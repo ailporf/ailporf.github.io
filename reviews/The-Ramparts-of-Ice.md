@@ -35,8 +35,9 @@ badges:
 <div class="spoiler-free-zone" markdown="1">
 
 ## Shakespeare, But it's a High School Romcom
+<!-- This is where you pitch the work. You evaluate the entry barrier, the basic narrative engine, and the production quality. A reader can browse this section completely safely to determine if the story matches their current frequency. -->
 
-This is where you pitch the work. You evaluate the entry barrier, the basic narrative engine, and the production quality. A reader can browse this section completely safely to determine if the story matches their current frequency.
+write here mans
 
 </div>
 
@@ -47,8 +48,9 @@ This is where you pitch the work. You evaluate the entry barrier, the basic narr
 <div class="spoiler-zone" markdown="1">
 
 ## It's Just So Damn Good
+<!-- This is where you drop the filter entirely. Now that you aren't protecting the plot, you can dissect the internal logic of **THE TWIST**, critique character deaths, and explain exactly why the ending succeeded or fell off. -->
 
-This is where you drop the filter entirely. Now that you aren't protecting the plot, you can dissect the internal logic of **THE TWIST**, critique character deaths, and explain exactly why the ending succeeded or fell off.
+remember to change publish date
 
 </div>
 
