@@ -122,17 +122,16 @@ p {
     font-size: 1.05rem;
 }
 
-/* --- THE 60/40 GRID LAYOUT --- */
+/* --- THE 60/40 GRID LAYOUT (HOMEPAGE/DEFAULT) --- */
 .layout-grid {
     display: grid;
-    /* Split into 60% and 40% with a 60px gap */
     grid-template-columns: 1.5fr 1fr; 
     gap: 60px;
     align-items: start;
 }
 
 .column-main {
-    /* Main body styling */
+    /* Main body styling remains untouched */
 }
 
 .column-main h2 {
@@ -158,24 +157,37 @@ p {
     margin-bottom: 20px;
 }
 
-/* Clean up the default bullet list styles in the sidebar */
-.recent-posts-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+/* --- ISOLATED FLUID REVIEW ENGINE (SPECIFIC MODIFIER) --- */
+/* This safely activates ONLY when a review template is being rendered */
+
+.review-body-layout {
+    display: block; /* Turns off grid for reviews */
+    width: 100%;
+    position: relative;
 }
 
-.recent-posts-list li {
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column; /* Stacks title and date cleanly */
-    font-size: 0.95rem;
+/* Float the sidebar to the right exclusively inside reviews */
+.review-body-layout .column-sidebar {
+    float: right;
+    width: 38%;
+    margin-left: 4%;
+    margin-bottom: 30px;
+    border-left: none; /* Strip grid-based borders */
+    border-right: none;
+    padding-left: 0;   /* Resets your old grid padding */
 }
 
-.recent-posts-list .post-date {
-    font-size: 0.8rem;
-    color: var(--meta-text);
-    font-family: monospace;
+/* Force the main text column to act as a 100% fluid wrapper element */
+.review-body-layout .column-main {
+    display: block;
+    width: 100%;
+}
+
+/* Clearfix gate to ensure footer doesn't drift into the float */
+.review-body-layout::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* --- RESPONSIVE MOBILE FIX --- */
@@ -534,7 +546,7 @@ p {
 .tier-d { color: #ff8bff; }
 .tier-f { color: #aaaaaa; }
 
-/* Structural Spec Matrix List */
+/* Review Spec Matrix List */
 .spec-matrix-panel {
     padding: 16px;
     margin-bottom: 25px;

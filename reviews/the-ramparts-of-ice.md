@@ -44,7 +44,7 @@ write here mans
 </div>
 
 <div class="spoiler-gate">
-    <span>CRITICAL WARNING: ANALYSIS BEYOND THIS POINT CONTAINS SPOILERS</span>
+    <span>POTENTIAL SPOILERS AHEAD: YOU HAVE BEEN WARNED!!!</span>
 </div>
 
 <div class="spoiler-zone" markdown="1">
