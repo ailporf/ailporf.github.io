@@ -1,91 +1,110 @@
----
-layout: sub-index
----
-<header>
-    <div class="meta-date">PUBLISHED: {{ page.date | date: "%Y-%m-%d" }}</div>
-</header>
-<div class="layout-grid">
-    <article class="column-main review-body">
-        {{ content }}
-    </article>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Aureli - {{ page.title }}</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            {% include nav.html %}
+            <h1>{{ page.title }}</h1>
+            {% if page.subheading %}
+                <div class="meta-date">{{ page.subheading }}</div>
+            {% endif %}
+        </header>
+        <main>
+            <div class="layout-grid">
+                <article class="column-main review-body">
+                    {{ content }}
+                </article>
 
-    <aside class="column-sidebar">
-        <h2>METRICS</h2>
-        
-        <div class="meta-panel main-tier-panel">
-            <span class="meta-label">PERSONAL TIER:</span>
-            <span class="tier-badge tier-{{ page.tier | downcase }}">{{ page.tier | upcase }}</span>
-        </div>
+                <aside class="column-sidebar">
+                    <h2>RATING METRICS</h2>
+                    
+                    <div class="meta-panel main-tier-panel">
+                        <span class="meta-label">PERSONAL TIER:</span>
+                        <span class="tier-badge tier-{{ page.tier | downcase }}">{{ page.tier | upcase }}</span>
+                    </div>
 
-        <div class="meta-panel">
-            <div class="meta-row" style="border-bottom: none; margin-bottom: 0; padding-bottom: 0;">
-                <span class="status-badge {{ page.status | downcase }}">{{ page.status }}</span>
-                <span class="scope-text">Scope: <strong>{{ page.evaluated_scope }}</strong></span>
+                    <div class="meta-panel">
+                        <div class="meta-row" style="border-bottom: none; margin-bottom: 0; padding-bottom: 0;">
+                            <span class="status-badge {{ page.status | downcase }}">{{ page.status }}</span>
+                            <span class="scope-text">Scope: <strong>{{ page.evaluated_scope }}</strong></span>
+                        </div>
+                        
+                        <ul class="spec-list" style="margin-top: 15px; border-top: 1px solid var(--border-color); padding-top: 12px;">
+                            <li>
+                                <span class="spec-label">READ COUNT:</span>
+                                <span class="spec-value">{{ page.read_count | default: 1 }}x</span>
+                            </li>
+                            {% if page.first_read_date %}
+                            <li>
+                                <span class="spec-label">FIRST READ:</span>
+                                <span class="spec-value">{{ page.first_read_date | date: "%b %Y" }}</span>
+                            </li>
+                            {% endif %}
+                            {% if page.latest_read_date %}
+                            <li>
+                                <span class="spec-label">LATEST READ:</span>
+                                <span class="spec-value">{{ page.latest_read_date | date: "%b %Y" }}</span>
+                            </li>
+                            {% endif %}
+                        </ul>
+                    </div>
+
+                    <div class="meta-panel spec-matrix-panel">
+                        <ul class="spec-list">
+                            <li>
+                                <span class="spec-label">CORE ENGINE:</span>
+                                <span class="spec-value">{{ page.engine }}</span>
+                            </li>
+                            <li>
+                                <span class="spec-label">CHARACTER LOGIC:</span>
+                                <span class="spec-value">{{ page.character_logic }}</span>
+                            </li>
+                            <li>
+                                <span class="spec-label">WORLD RULES:</span>
+                                <span class="spec-value">{{ page.world_rules }}</span>
+                            </li>
+                            <li>
+                                <span class="spec-label">PROSE STYLE:</span>
+                                <span class="spec-value">{{ page.prose_style }}</span>
+                            </li>
+                            <li>
+                                <span class="spec-label">SETTING GENRE:</span>
+                                <span class="spec-value">{{ page.setting_genre }}</span>
+                            </li>
+                            <li>
+                                <span class="spec-label">CONTENT GENRE:</span>
+                                <span class="spec-value">{{ page.content_genre }}</span>
+                            </li>
+                            <li>
+                                <span class="spec-label">TROPE RELIANCE:</span>
+                                <span class="spec-value">{{ page.trope_reliance }}</span>
+                            </li>
+                            <li>
+                                <span class="spec-label">EROTICISM SCORE:</span>
+                                <span class="spec-value">{{ page.eroticism_score }}/10</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {% if page.badges %}
+                        <div class="review-badges-container">
+                            {% for badge in page.badges %}
+                                <span class="dense-badge {{ badge | downcase | replace: ' ', '-' | replace: '!', '' | replace: '™️', '' }}">{{ badge }}</span>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </aside>
             </div>
-            
-            <ul class="spec-list" style="margin-top: 15px; border-top: 1px solid var(--border-color); padding-top: 12px;">
-                <li>
-                    <span class="spec-label">READ COUNT:</span>
-                    <span class="spec-value">{{ page.read_count | default: 1 }}x</span>
-                </li>
-                {% if page.first_read_date %}
-                <li>
-                    <span class="spec-label">FIRST READ:</span>
-                    <span class="spec-value">{{ page.first_read_date | date: "%b %Y" }}</span>
-                </li>
-                {% endif %}
-                {% if page.latest_read_date %}
-                <li>
-                    <span class="spec-label">LATEST READ:</span>
-                    <span class="spec-value">{{ page.latest_read_date | date: "%b %Y" }}</span>
-                </li>
-                {% endif %}
-            </ul>
-        </div>
-
-        <div class="meta-panel spec-matrix-panel">
-            <ul class="spec-list">
-                <li>
-                    <span class="spec-label">CORE ENGINE:</span>
-                    <span class="spec-value">{{ page.engine }}</span>
-                </li>
-                <li>
-                    <span class="spec-label">CHARACTER LOGIC:</span>
-                    <span class="spec-value">{{ page.character_logic }}</span>
-                </li>
-                <li>
-                    <span class="spec-label">WORLD RULES:</span>
-                    <span class="spec-value">{{ page.world_rules }}</span>
-                </li>
-                <li>
-                    <span class="spec-label">PROSE STYLE:</span>
-                    <span class="spec-value">{{ page.prose_style }}</span>
-                </li>
-                <li>
-                    <span class="spec-label">SETTING GENRE:</span>
-                    <span class="spec-value">{{ page.setting_genre }}</span>
-                </li>
-                <li>
-                    <span class="spec-label">CONTENT GENRE:</span>
-                    <span class="spec-value">{{ page.content_genre }}</span>
-                </li>
-                <li>
-                    <span class="spec-label">TROPE RELIANCE:</span>
-                    <span class="spec-value">{{ page.trope_reliance }}</span>
-                </li>
-                <li>
-                    <span class="spec-label">EROTICISM SCORE:</span>
-                    <span class="spec-value">{{ page.eroticism_score }}/10</span>
-                </li>
-            </ul>
-        </div>
-
-        {% if page.badges %}
-            <div class="review-badges-container">
-                {% for badge in page.badges %}
-                    <span class="dense-badge {{ badge | downcase | replace: ' ', '-' | replace: '!', '' | replace: '™️', '' }}">{{ badge }}</span>
-                {% endfor %}
-            </div>
-        {% endif %}
-    </aside>
-</div>
+        </main>
+        <footer>
+            <p>&copy; {{ "now" | date: "%Y" }} AJ Aureli. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

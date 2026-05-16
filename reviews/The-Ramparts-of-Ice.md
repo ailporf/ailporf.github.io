@@ -22,7 +22,7 @@ prose_style: "Transparent"       # Elevated (Stylized) or Transparent (Invisible
 setting_genre: "Contemporary Fiction"
 content_genre: "Love / Status"
 trope_reliance: "Low"          # Low, Moderate, High
-eroticism_score: 2/10             # Standard 1 to 10 scale
+eroticism_score: 2             # Standard 1 to 10 scale
 
 # --- KEYWORD BADGES MATRIX ---
 # Pass as a clean YAML array. The layout converts these to blocky terminal badges.
