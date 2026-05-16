@@ -1,7 +1,9 @@
 ---
 layout: sub-index
 ---
-
+<header>
+    <div class="meta-date">PUBLISHED: {{ page.date | date: "%Y-%m-%d" }}</div>
+</header>
 <div class="layout-grid">
     <article class="column-main review-body">
         {{ content }}
