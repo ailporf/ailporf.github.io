@@ -31,18 +31,19 @@
                     <div class="riffs-container">
                         {% assign riffs = site.pages | where_exp: "item", "item.path contains 'riffs/'" | where_exp: "item", "item.path contains '.md'" | sort: "date" | reverse %}
                         {% for riff in riffs limit: 3 %}
-                        {% unless post.hidden %}
-                            <article class="riff-card">
-                                <header class="riff-header">
-                                    <span class="riff-date">{{ riff.date | date: "%Y-%m-%d" }}</span>
-                                    {% if riff.context %}
-                                        <span class="riff-context">// {{ riff.context }}</span>
-                                    {% endif %}
-                                </header>
-                                <div class="riff-content">
-                                    {{ riff.content | markdownify }}
-                                </div>
-                            </article>
+                            {% unless post.hidden %}
+                                <article class="riff-card">
+                                    <header class="riff-header">
+                                        <span class="riff-date">{{ riff.date | date: "%Y-%m-%d" }}</span>
+                                        {% if riff.context %}
+                                            <span class="riff-context">// {{ riff.context }}</span>
+                                        {% endif %}
+                                    </header>
+                                    <div class="riff-content">
+                                        {{ riff.content | markdownify }}
+                                    </div>
+                                </article>
+                            {% endunless %}
                         {% endfor %}
                     </div>
                 </section>
