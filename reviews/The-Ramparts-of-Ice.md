@@ -5,7 +5,7 @@ author: "Koucha (Tea) Agasawa"
 date: 2026-05-16
 
 # --- LIFECYCLE COMPONENT ---
-work_status: "Completed"        # completed, ongoing, hiatus, cancelled
+status: "Completed"        # completed, ongoing, hiatus, cancelled
 evaluated_scope: "Ch. 1 - 107" # e.g., Vol 1-5, Ch. 1-150, or "Full Work"
 read_count: 1                 # Total number of times read/watched
 first_read_date:  # YYYY-MM-DD (Optional, leave blank if unknown)
