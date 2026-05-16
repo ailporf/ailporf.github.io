@@ -34,8 +34,7 @@ badges:
 ---
 <div class="spoiler-free-zone" markdown="1">
 
-### Section 1
-#### Spoiler-free
+## Spoiler-free
 <!-- This is where you pitch the work. You evaluate the entry barrier, the basic narrative engine, and the production quality. A reader can browse this section completely safely to determine if the story matches their current frequency. -->
 
 a
@@ -48,8 +47,7 @@ a
 
 <div class="spoiler-zone" markdown="1">
 
-### Section 2
-#### Spoilers!
+## Spoilery
 <!-- This is where you drop the filter entirely. Now that you aren't protecting the plot, you can dissect the internal logic of **THE TWIST**, critique character deaths, and explain exactly why the ending succeeded or fell off. -->
 
 extremely long sentence here. i just need to test if the background colour has the correct padding or whatever or not.

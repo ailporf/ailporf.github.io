@@ -599,9 +599,7 @@ p {
 }
 
 .spoiler-zone {
-    background: rgba(0, 255, 255, 0.01); /* Micro-tint of your cyan accent */
-    border: 1px solid var(--border-color);
-    padding: 20px;
+    /* nothing yet... */
 }
 
 /* Warning Gate Banner */
