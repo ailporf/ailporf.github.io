@@ -5,7 +5,7 @@ author: "ailporf"
 date: 2026-05-02
 
 # --- LIFECYCLE COMPONENT ---
-work_status: "Ongoing"        # completed, ongoing, hiatus, cancelled
+status: "Ongoing"        # completed, ongoing, hiatus, cancelled
 evaluated_scope: "Ch. 1 - 10701854" # e.g., Vol 1-5, Ch. 1-150, or "Full Work"
 read_count: 1                 # Total number of times read/watched
 first_read_date: 2026-07-30 # YYYY-MM-DD (Optional, leave blank if unknown)
