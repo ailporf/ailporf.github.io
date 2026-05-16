@@ -436,7 +436,7 @@ p {
     border-color: rgba(255, 170, 0, 0.2);
 }
 
-.status-badge.dropped {
+.status-badge.cancelled {
     background: rgba(255, 77, 77, 0.1);
     color: #ff4d4d;
     border-color: rgba(255, 77, 77, 0.2);
