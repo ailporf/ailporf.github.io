@@ -15,10 +15,6 @@
         </header>
         <main>
             <div class="review-body-layout">
-                <article class="column-main review-body">
-                    {{ content }}
-                </article>
-
                 <aside class="column-sidebar">
                     <h2>RATING METRICS</h2>
                     
@@ -98,6 +94,9 @@
                         </div>
                     {% endif %}
                 </aside>
+                <article class="column-main review-body">
+                    {{ content }}
+                </article>
             </div>
         </main>
         <footer>
