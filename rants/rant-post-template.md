@@ -2,6 +2,7 @@
 layout: rant
 title: "RANT Template"
 date: 2026-05-11
+hidden: true # make false when ready to post
 
 # --- Optional Rant Metadata ---
 subheading: "Subheading of all time"

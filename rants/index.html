@@ -12,6 +12,7 @@ subheading: Unfiltered, stream-of-consciousness rants on any topic that catches 
     
     <ul class="filterable-list" id="post-list">
         {% for post in posts %}
+        {% unless post.hidden %}
             <li class="dense-post-item" data-title="{{ post.title | downcase }}">
                 <span class="dense-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
                 <a href="{{ post.url }}" class="dense-post-link">{{ post.title }}</a>

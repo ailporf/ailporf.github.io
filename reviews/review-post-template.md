@@ -3,6 +3,7 @@ layout: review
 title: "REVIEW Template"
 author: "ailporf"
 date: 2026-05-02
+hidden: true # make false when ready to post
 
 # --- LIFECYCLE COMPONENT ---
 status: "Ongoing"        # completed, ongoing, hiatus, cancelled

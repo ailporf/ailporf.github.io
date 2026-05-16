@@ -3,6 +3,7 @@ layout: review
 title: "The Ramparts of Ice"
 author: "Koucha (Tea) Agasawa"
 date: 2026-05-16
+hidden: true # make false when ready to post
 
 # --- LIFECYCLE COMPONENT ---
 status: "Completed"        # completed, ongoing, hiatus, cancelled

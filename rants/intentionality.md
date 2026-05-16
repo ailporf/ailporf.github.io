@@ -2,6 +2,7 @@
 layout: rant
 title: "The Crappiest Crap Possible"
 date: 2026-05-15
+hidden: false # make false when ready to post
 
 # --- Optional Rant Metadata ---
 subheading: "A personal blog about optimisation and intentionality."
