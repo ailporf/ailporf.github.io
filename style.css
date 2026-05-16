@@ -157,6 +157,30 @@ p {
     margin-bottom: 20px;
 }
 
+.recent-posts-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-posts-list li {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column; /* Forces the date to drop under the link */
+    gap: 4px;               /* Clean micro-gap between title and date */
+}
+
+.recent-posts-list li a {
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+.recent-posts-list .post-date {
+    font-size: 0.8rem;
+    color: var(--meta-text);
+    font-family: monospace;
+}
+
 /* --- ISOLATED FLUID REVIEW ENGINE (SPECIFIC MODIFIER) --- */
 /* This safely activates ONLY when a review template is being rendered */
 
