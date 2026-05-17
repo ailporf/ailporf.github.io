@@ -362,27 +362,23 @@ p {
         padding-left: 0;
         padding-top: 30px;
     }
-    
-    .review-body-layout {
-        display: flex;
-        /* Flips layout: Renders Main text first, pushes Sidebar metrics to the bottom */
-        flex-direction: column-reverse; 
-    }
-
-    .review-body-layout .column-main {
-        width: 100%;
-        float: none;
-        margin-top: 40px; /* Shift the margin to the top to separate from the sidebar below */
-        margin-bottom: 0;
-    }
-
+    /* Turn off floats and let elements stack in their natural HTML order */
+    .review-body-layout .column-main,
     .review-body-layout .column-sidebar {
         width: 100%;
         float: none;
         margin-left: 0;
-        border-top: 1px solid var(--border-color);
-        padding-top: 30px;
-        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+    /* THE SIDEBAR (Renders first at the top of the screen) */
+    .review-body-layout .column-sidebar {
+        margin-bottom: 35px; /* Creates a clean structural gap before the review prose starts */
+        border-bottom: 1px solid var(--border-color); /* Optional: underlines the metrics card */
+        padding-bottom: 25px;
+    }
+    /* THE MAIN TEXT (Renders immediately below the sidebar) */
+    .review-body-layout .column-main {
+        margin-top: 0;
     }
 }
 
