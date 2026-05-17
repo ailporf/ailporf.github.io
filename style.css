@@ -362,6 +362,28 @@ p {
         padding-left: 0;
         padding-top: 30px;
     }
+    
+    .review-body-layout {
+        display: flex;
+        /* Flips layout: Renders Main text first, pushes Sidebar metrics to the bottom */
+        flex-direction: column-reverse; 
+    }
+
+    .review-body-layout .column-main {
+        width: 100%;
+        float: none;
+        margin-top: 40px; /* Shift the margin to the top to separate from the sidebar below */
+        margin-bottom: 0;
+    }
+
+    .review-body-layout .column-sidebar {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        border-top: 1px solid var(--border-color);
+        padding-top: 30px;
+        margin-bottom: 0;
+    }
 }
 
 @media (max-width: 600px) {
