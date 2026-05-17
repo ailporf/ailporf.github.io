@@ -298,6 +298,7 @@ p {
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 15px;
+    position: relative
 }
 
 /* Review-specific line optimization for prose reading */
@@ -671,6 +672,36 @@ p {
     text-transform: uppercase;
     padding: 2px 6px;
     border: 1px solid currentColor;
+    position: relative;
+    cursor: help;
+    font-weight: bold;
+}
+
+.dense-badge::after {
+    content: attr(data-description); /* Pulls variable data from the liquid pipeline */
+    position: absolute;
+    bottom: 135%;
+    left: 50%;
+    transform: translateX(-50%) scale(0.9);
+    width: 180px;
+    padding: 6px 10px;
+    background: #161b22;             /* Matches dark system profile themes */
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    font-size: 0.7rem;
+    line-height: 1.2;
+    font-weight: normal;
+    text-transform: none;            /* Stops uppercase leaking into description text */
+    border-radius: 3px;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.12s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.dense-badge:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
 }
 
 /* --- FOOTER --- */
