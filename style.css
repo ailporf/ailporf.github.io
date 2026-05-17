@@ -722,6 +722,63 @@ p {
     transform: translateX(-50%) scale(1);
 }
 
+/* --- COMPONENT: INLINE HELP INDICATORS --- */
+
+.help-trigger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    font-size: 0.65rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: var(--meta-text, #888888);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    border-radius: 50%; /* Perfect circular badge */
+    margin-left: 4px;
+    cursor: help;
+    position: relative;
+    vertical-align: middle;
+    user-select: none;
+    transition: all 0.15s ease;
+}
+
+.help-trigger:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+    border-color: var(--link-color, #ffffff);
+}
+
+.help-trigger::after {
+    content: attr(data-help); /* Dynamically grabs the text from the HTML attribute */
+    position: absolute;
+    bottom: 140%;             /* Floating cleanly above the line */
+    left: 50%;
+    transform: translateX(-50%) scale(0.9);
+    width: 180px;             /* Compact boundary layout */
+    padding: 6px 10px;
+    background: #161b22;      /* Matches your system panel theme background */
+    border: 1px solid var(--border-color);
+    color: var(--text-color, #ffffff);
+    font-size: 0.7rem;
+    font-weight: normal;
+    line-height: 1.3;
+    text-transform: none;     /* Protects description casing from uppercase headers */
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.12s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.help-trigger:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+
 /* --- FOOTER --- */
 footer {
     margin-top: 60px;
