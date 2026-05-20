@@ -23,7 +23,7 @@ prose_style: "Transparent"       # Elevated (Stylized) or Transparent (Invisible
 setting_genre: "Fantasy"
 content_genre: "Worldview / Thriller"
 trope_reliance: "High"          # Low, Moderate, High
-e_score: 9/10             # Standard 1 to 10 scale
+e_score: 9            # Standard 1 to 10 scale
 
 # --- KEYWORD BADGES MATRIX ---
 # Pass as a clean YAML array. The layout converts these to blocky terminal badges.

@@ -35,8 +35,7 @@ badges:
 ---
 <div class="spoiler-free-zone" markdown="1">
 
-## Spoiler-free
-Shakespeare, But it's a High School Romcom
+## Spoiler-free <br> *Shakespeare, But it's a High School Romcom*
 <!-- This is where you pitch the work. You evaluate the entry barrier, the basic narrative engine, and the production quality. A reader can browse this section completely safely to determine if the story matches their current frequency. -->
 
 write here mans
