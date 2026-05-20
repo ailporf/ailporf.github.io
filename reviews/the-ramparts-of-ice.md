@@ -7,27 +7,25 @@ hidden: true # make false when ready to post
 
 # --- LIFECYCLE COMPONENT ---
 status: "Completed"        # completed, ongoing, hiatus, cancelled
-evaluated_scope: "Ch. 1 - 107" # e.g., Vol 1-5, Ch. 1-150, or "Full Work"
-read_count: 1                 # Total number of times read/watched
+evaluated_scope: "Ch. 1 - 107"
+read_count: 1
 first_read_date:  # YYYY-MM-DD (Optional, leave blank if unknown)
 latest_read_date: 2026-05-13  # YYYY-MM-DD (Optional)
 
 # --- LIFECYCLE COMPONENT ---
-tier: "SSS"                     # SSS, S, A, B, C, D, F (Gut enjoyment value)
-engine: "Character-Driven"        # Character-Driven, Setting-Driven, Plot-Driven, Theme-Driven
-character_logic: "Rigid"       # Rigid (Acts logically) or Fluid (Acts for plot armor)
-world_rules: "Hard"            # Hard (Mechanical purity) or Soft (Vibe-based)
-prose_style: "Transparent"       # Elevated (Stylized) or Transparent (Invisible plot-delivery)
+tier: "SSS"
+engine: "Character-Driven"
+character_logic: "Rigid"
+world_rules: "Hard"
+prose_style: "Transparent"
 
 # --- CATEGORICAL SCOPES ---
 setting_genre: "Contemporary Fiction"
 content_genre: "Love / Status"
-trope_reliance: "Low"          # Low, Moderate, High
-e_score: 2             # Standard 1 to 10 scale
+predictability: "Low"
+e_score: 2
 
 # --- KEYWORD BADGES MATRIX ---
-# Pass as a clean YAML array. The layout converts these to blocky terminal badges.
-# Delete or comment out any badges that don't apply to this specific work.
 badges:
   - "GOOD ENDING"
   - "CHARACTER DEVELOPMENT™️"
@@ -37,7 +35,7 @@ badges:
 
 ## Spoiler-free
 > *SHAKESPEARE, BUT IT'S A HIGH SCHOOL ROMCOM*
-
+*T
 <!-- This is where you pitch the work. You evaluate the entry barrier, the basic narrative engine, and the production quality. A reader can browse this section completely safely to determine if the story matches their current frequency. -->
 
 write here mans
