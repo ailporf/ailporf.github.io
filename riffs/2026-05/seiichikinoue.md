@@ -9,3 +9,5 @@ One of my favourite short romcom manga, *No Matter What You Say, Furi-san is Sca
 
 I feel like I'm genuinely looking at a Spotify artist with 400 monthly listeners while I'm stalking this random mangaka, but I seriously love their artstyle and tight pacing.
 <br> It's not even a masterpiece, but it is undoubtedly one of my favourite works of all time.
+
+I think I'm gonna email them.
