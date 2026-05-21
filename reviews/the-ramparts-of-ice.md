@@ -7,7 +7,7 @@ hidden: true # make false when ready to post
 
 # --- LIFECYCLE COMPONENT ---
 status: "Completed"        # completed, ongoing, hiatus, cancelled
-evaluated_scope: "Ch. 1 - 107"
+evaluated_scope: "Ch. 1 - 107 / 117"
 read_count: 1
 first_read_date:  # YYYY-MM-DD (Optional, leave blank if unknown)
 latest_read_date: 2026-05-13  # YYYY-MM-DD (Optional)
@@ -34,8 +34,8 @@ badges:
 <div class="spoiler-free-zone" markdown="1">
 
 ## Spoiler-free
-> **SHAKESPEARE, BUT IT'S A HIGH SCHOOL ROMCOM**
-
+> **SHAKESPEARE, BUT IT'S A HIGH SCHOOL ROMCOM**  
+6767676767
 
 <!-- This is where you pitch the work. You evaluate the entry barrier, the basic narrative engine, and the production quality. A reader can browse this section completely safely to determine if the story matches their current frequency. -->
 
