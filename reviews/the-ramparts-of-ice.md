@@ -36,9 +36,13 @@ badges:
 ## Spoiler-free
 > **SHAKESPEARE, BUT IT'S A HIGH SCHOOL ROM-COM**  
 
-*The Ramparts of Ice* (Kōri no Jōheki) by Kōcha Agasawa, is an underrated masterpiece of romance comedy fiction.
-<br> With a deceptively basic premise and simple (but undoubtedly unique) artstyle, Agasawa manuevers the characters' lives so expertly it's like watching a platonically perfect soap opera.
+*The Ramparts of Ice* (Kōri no Jōheki) by Kōcha Agasawa, is an underrated masterpiece of romance comedy fiction. On the surface, it looks like a slightly darker, typical romcom, but it is in fact a platonically ideal soap opera of intimate proportions.
 
+With a deceptively basic premise and simple (but undoubtedly unique) artstyle, Agasawa manuevers the characters so expertly it makes you wonder if the story really happened somewhere. It follows various main characters over time, but our first, main protagonist is one Koyuki Hikawa, an introverted high school girl who has been TRAUMATISED through a mixture of unfortunate circumstances and her own end-of-the-rope decision-making back in junior high.
+
+Other characters include the complex Minato Amamiya, a chronic people-pleaser and Koyuki's love interest, Yota Hino, the undisputed GOAT of supportive friendships, and Miki Azumi, Koyuki's best friend who acts as the glue of the whole group and eventually gets her own fun little arc.
+
+The story is amazingly paced, to the point where I honestly couldn't stop reading once I started (hence the GLUETRAP badge). 
 
 
 When I read it, I found myself wondering, "is there any flaws in this story?" and the answer is a genuine "no, not at all."
