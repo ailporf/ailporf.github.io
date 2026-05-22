@@ -34,9 +34,14 @@ badges:
 <div class="spoiler-free-zone" markdown="1">
 
 ## Spoiler-free
-> **SHAKESPEARE, BUT IT'S A HIGH SCHOOL ROMCOM**  
+> **SHAKESPEARE, BUT IT'S A HIGH SCHOOL ROM-COM**  
 
-6767676767
+*The Ramparts of Ice* (Kōri no Jōheki) by Kōcha Agasawa, is an underrated masterpiece of romance comedy fiction.
+<br> With a deceptively basic premise and simple (but undoubtedly unique) artstyle, Agasawa manuevers the characters' lives so expertly it's like watching a platonically perfect soap opera.
+
+
+
+When I read it, I found myself wondering, "is there any flaws in this story?" and the answer is a genuine "no, not at all."
 
 <!-- This is where you pitch the work. You evaluate the entry barrier, the basic narrative engine, and the production quality. A reader can browse this section completely safely to determine if the story matches their current frequency. -->
 
