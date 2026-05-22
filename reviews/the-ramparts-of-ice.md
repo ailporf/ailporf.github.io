@@ -35,16 +35,21 @@ badges:
 ## Spoiler-free
 > **SHAKESPEARE, BUT IT'S A HIGH SCHOOL ROM-COM**  
 
-*The Ramparts of Ice* (Kōri no Jōheki) by Koucha (Tea) Agasawa, is an underrated masterpiece of romance comedy fiction. On the surface, it looks like a slightly darker, typical romcom, but it is in fact a platonically ideal soap opera of intimate proportions.
+*The Ramparts of Ice* (Kōri no Jōheki) by Koucha (Tea) Agasawa, is an underrated masterpiece of romance comedy fiction. On the surface, it looks like a slightly darker, typical romcom, but it is in fact a platonically ideal soap opera of dramatically ironic proportions.
 
-With a deceptively basic premise and simple (but undoubtedly unique) artstyle, Agasawa shows they understand the words "restriction breeds creativity". Information is planted and grown and harvested at just the right times, sometimes without you even knowing it happened. Agasawa is a master of recontextualisation. Specifically, making you feel empathetic toward differing perspectives. Characters you thought to be pure villains are later revealed to be victims themselves, but not blameless ones.
+With a deceptively basic premise and simple (but undoubtedly unique) artstyle, Agasawa shows they understand the words "restriction breeds creativity".
 
-Agasawa manuevers the characters so expertly it almost feels like a nature documentary in a high school setting. Seriously, there is practically no wasted time or effort, it all feels incremental to the characters' glorious success.  
+Information is planted and grown and harvested at just the right times, sometimes without you even knowing it happened. This information is used to create more tension for the narrative engine, and you feel it every time. You feel the building anxiety of the upcoming confrontation, confession or comedic moment. Usually all three in quick succession.
+
+Agasawa coordinates the wonderfully lovable characters with the expert hands of a puppetmaster and the piercing vision of a 17th century playwright. Seriously, there is practically no wasted time or effort, it all feels incremental to the characters' glorious success.  
 Not to mention, Agasawa just trusts you. They trust that you understand the implications, the instigations, the internal motivations.
+
+Agasawa is a master of recontextualisation. Specifically, making you feel empathetic toward differing perspectives. Characters you thought to be pure villains are later revealed to be victims themselves, but not blameless ones.
 
 It's cathartic.  
 That too, actually - Agasawa understands *catharsis*.  
-When you start yelling at the screen and cursing the author for torturing your favourite characters, they finally give you the exact right amount of relief to keep you hooked. I honestly couldn't stop reading once I started (hence the **GLUETRAP** badge).  
+When you start yelling at the screen and cursing the author for torturing your favourite characters, they finally give you the exact right amount of relief to keep you hooked.  
+I honestly couldn't stop reading once I started (hence the **GLUETRAP** badge).  
 I talk about this manga like a damn coke addict because of it's sheer *quality* and commitment to realistic character growth, reaction, and audience manipulation in the bestest way. It's pacing is seamless.
 
 When I finished reading it, I found myself wondering: "Are there any flaws in this story?"  
