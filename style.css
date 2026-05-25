@@ -418,25 +418,12 @@ p {
 }
 
 /* --- SCREENSHOTS & IMAGES --- */
-.screenshot-container {
-    margin: 35px 0;
-}
-
-.screenshot-container img {
-    width: 100%;
+.review-body img {
+    max-width: 100%;
     height: auto;
-    border-radius: 6px;
+    display: block;
+    margin: 20px auto;
     border: 1px solid var(--border-color);
-    display: block;
-}
-
-.screenshot-caption {
-    display: block;
-    margin-top: 10px;
-    font-size: 0.85rem;
-    color: var(--meta-text);
-    font-style: italic;
-    text-align: center;
 }
 
 /* --- AGNOSTIC METADATA PANEL --- */
