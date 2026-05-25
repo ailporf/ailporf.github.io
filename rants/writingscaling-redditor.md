@@ -17,7 +17,7 @@ They were mostly dumb stuff like "Bleach vs Naruto, which was better written?" o
 ![Reddit post titled, "What are some works with deep/complex/nuanced/profound/layered writing that you still think kinda suck" with gif of the old man crashing out in Fantastic Mr Fox titled, "When she depthmaxxes on my complexityslop 'till I nuance but it's still a mid ass story"](/assets/images/rants/writingscaling.png "Funniest Reddit user:")
 <br> *"What are some works with deep/complex/nuanced/profound/layered writing that you still think kinda suck"*
 
-Now, in isolation, this is just a regular post. But oh-ho you haven't seen the comments.
+Now, in isolation, this is just a regular post. But oh-ho -- you have NOT seen the comments.
 
 Top post: user "sloppiestsecond5" posts the following comment:
 

@@ -417,12 +417,27 @@ p {
 }
 
 /* --- SCREENSHOTS & IMAGES --- */
-.review-body img {
+.review-body img, .rant-body img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 20px auto;
+    margin: 30px auto;
     border: 1px solid var(--border-color);
+}
+
+.review-body img.align-left, .rant-body img.align-left {
+    float: left;
+    max-width: 45%;
+    margin: 10px 25px 20px 0;
+}
+
+.review-body img + em, .rant-body img + em {
+    display: block;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--meta-text);
+    margin-top: -20px;
+    margin-bottom: 35px;
 }
 
 /* --- AGNOSTIC METADATA PANEL --- */
