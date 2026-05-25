@@ -201,10 +201,9 @@ p {
 /* Force the main text column to act as a 100% fluid wrapper element */
 .review-body-layout .column-main {
     display: block;
-    width: 58%;
-    float: left;
+    width: auto;
+    float: none;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 /* Float the sidebar to the right exclusively inside reviews */
