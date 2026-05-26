@@ -112,4 +112,4 @@ In any case, sloppiestsecond5 is just making a bad claim, defending it with a we
 
 TL;DR - the literacy crisis IS real.
 
-Thanks for reading!
+Thanks for reading, and make sure if you don't have something nice to say, then at least make it make sense.
