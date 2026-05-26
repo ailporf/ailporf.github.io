@@ -39,7 +39,13 @@ And *Kaoru Hana*? The story is known specifically for being **refreshingly uncom
 
 Let's see what our friend had to say about *Kaoru Hana* when questioned:
 
-<!-- Insert image here of the Kaoru Hana rant -->
+> fragrant flower is just so fucking ridiculous. LOOK AT THIS SIZE DIFFERENCE THEY WANT ME TO TAKE THIS SERIOUSLY. SHE LOOKS LIKE A FUCKING MIDGET. 
+
+> fragrant wants to sell this grand, star-crossed-romance conflict so badly, but the problem is that the drama feels hilariously disproportionate. The girls school treats the boy school like it's a maximum security prison filled with sex offenders like it's so overblown and dramatic and it's just straight up dumb. It would be different if it was a comedy but no... like... we're supposed to deadass take the fact that these girls REFUSE and will tweak TF out if Waguri even LOOKs at a man because of reasons ig idk.
+
+> The MC is cool. Waguri barely exists outside of “nice girl who likes the MC.” She’s less a character and more a reward dispensed to validate Rintaro’s growth. No meaningful flaws, no complicated desires, no sense that she exists when the MC leaves the room. Waguri is just a cardboard cut out of a woman and she has negative discernable personality traits. I'm so tired and bored by fem characters who's whole purpose is to be (insert MC)'s love interest. Especially when the MC is allowed to get all this depth and character growth but Waguri could be swapped out with a house plant and nothing would change. My left hand has more chemistry with my pubic hairs than Rintaro has with Waguri.
+
+> Horimiya isn't bad it was just mid to me like nothing special but people love it and swear it's best romance OAT like what. Hori and the emo dude have good chemistry and they feel realistic enough but idk it just felt normal mid to me nothing crayzay.
 
 sloppiestsecond5's hatred for *Kaoru Hana* is so hyperbolic that I don't think they can justify it by saying the works were "just mid to me" or "had flaws that outweighed the pros imo." anymore.
 
@@ -47,7 +53,7 @@ sloppiestsecond5's hatred for *Kaoru Hana* is so hyperbolic that I don't think t
 
 Promptly after seeing this absolute lobe-melter of a comment, I responded with an expression of my genuine disbelief. 
 
-<!-- Insert image of my comment -->
+![Reddit comment from me saying, "you can't seriously be calling Kaoru Hana "complex"? And HORIMIYA? COMPLEX?"](/assets/images/rants/me.png "I couldn't believe it, guys, really")
 
 But of course, it's not over yet.
 
