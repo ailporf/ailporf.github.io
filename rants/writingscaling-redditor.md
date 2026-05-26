@@ -7,7 +7,7 @@ hidden: true # make false when ready to post
 # --- Optional Rant Metadata ---
 subheading: "Genuine rant about this one guy on Reddit. Swearing included."
 topic: "Writing, Manga, Internet"  # E.g., Game Design, Writing, Tropes, Tech (Optional)
-read_time: 5            # Estimated read time in minutes (Optional)
+read_time: 10            # Estimated read time in minutes (Optional)
 ---
 
 So I was websurfing as usual when I came across a literal subreddit known as "r/writingscaling". Now, just from that name alone you've probably already realised that this cannot go well, but I was so intrigued that I opened the place and began searching through the posts.
@@ -27,7 +27,7 @@ User "sloppiestsecond5" posts the following comment:
 There's a bit to unpack here.
 <br> First of all, you would be right to assume that from this response, sloppiestsecond5 considers the likes of *Naruto*, *Kaoru Hana* (The Fragrant Flower Blooms With Dignity), *Horimiya*, *Made in Abyss*, and *Blue Box* to be complex works. 
 
-This is just a fucking insane to think.
+This is just a fucking insane thing to think.
 
 In what universe does the slice-of-life, stream-of-consciousness, anti-plot *Horimiya*---which is pretty much **universally** considered a simple starting manga/anime---be complex enough to be named alongside *Made in Abyss*?  
 *Horimiya* quite literally dissolves its own premise into cotton-candy fluff by like Volume 5; there is no complexity. 
@@ -57,20 +57,19 @@ sloppiestsecond5 responds to every one of the comments (including mine) in their
     
 I thought sloppiestsecond5 just had an insanely low bar for literary complexity. But no---they actually don't even *have* a fucking bar.
 
-They are not using their own opinion to inform what is considered complex, but basing it entirely other people's opinions. Not just that, but the thoughts and feelings of "stans" specifically. *Why?* Why cherry-pick your "critique" based on a presumption of extreme complexity as according to the most vocal members of a fanbase?
+They are not using their own opinion to inform what is considered complex, but basing it entirely other people's opinions. Not just that, but the thoughts and feelings of "stans" specifically. 
+
+*Why?* 
+
+Why cherry-pick your "critique" based on a presumption of complexity based on the most vocal members of a work's fanbase?
 
 sloppiestsecond5 either fundamentally misunderstood the original poster's question, or they intentionally hijacked the premise to show off their pre-written hate-boner for some popular works (guess which I think they did?).
-<br> It is much easier to assume that when the OP asks for opinions of "works with deep writing that you **still** think kinda sucks", that means something that is *both* "complex" and "kinda sucks". Not just any random story you consider overrated because some "stans" say so.
+<br> It is much easier to assume that when the OP asks for opinions of "works with deep writing that you **still** think kinda sucks", that means something that is *both* "complex" and "kinda sucks". Not just any random story you consider overrated because "stans" disagree.
 
-Generally, the "stans" can be considered a loud minority of a fandom, so is it not simply a bad-faith argument to claim that these people represent the general opinion about a work's complexity?
-<br> Besides, just because a *Naruto* superfan considers---say, Itachi's plotline----deep or complex, that doesn't mean *Naruto* is complex as a whole.
-<br> In any case you consider, sloppiestsecond5 is just making a bad claim, defending it with a weak position, and acting like the people that called them out are the stupid ones.
+Is it not simply a bad-faith argument to claim that these "stans" represent the general opinion about a work's complexity?
 
-
-
-
-
-
-
+In any case, sloppiestsecond5 is just making a bad claim, defending it with a weak position, and acting like the people that called them out are the stupid ones with their passive-aggressive responses.
 
 TL;DR - the literacy crisis IS real
+
+Thanks for reading.
