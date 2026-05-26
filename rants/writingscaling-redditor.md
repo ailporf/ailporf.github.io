@@ -2,7 +2,7 @@
 layout: rant
 title: "r/writingscaling is filled with idiot larpers"
 date: 2026-05-26
-hidden: true # make false when ready to post
+hidden: false # make false when ready to post
 
 # --- Optional Rant Metadata ---
 subheading: "Genuine rant about this one guy on Reddit. Swearing included."
