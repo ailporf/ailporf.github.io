@@ -37,7 +37,7 @@ And *Kaoru Hana*? The story is known specifically for being **refreshingly uncom
 
 ...and *Naruto*? Really?
 
-Let's see what our friend had to say about *Kaoru Hana* when questioned:
+Let's see what our friend had to say about *Kaoru Hana* (and *Horimiya*) when questioned:
 
 > fragrant flower is just so fucking ridiculous. LOOK AT THIS SIZE DIFFERENCE THEY WANT ME TO TAKE THIS SERIOUSLY. SHE LOOKS LIKE A FUCKING MIDGET. 
 
@@ -59,7 +59,7 @@ But of course, it's not over yet.
 
 sloppiestsecond5 responds to every one of the comments (including mine) in their thread with the exact same copy-pasted response:
 
-<!-- Insert image here of the comments -->
+![Reddit comment from sloppiestsecond5 saying, "the stans swear up and down these are like deep ass stories and have all this stuff but ive never found them to be that great so i mentioned them -_-) ?"](/assets/images/rants/holyfuck.png "dude you suuuuck.")
     
 I thought sloppiestsecond5 just had an insanely low bar for literary complexity. But no---they actually don't even *have* a fucking bar.
 
@@ -74,6 +74,10 @@ sloppiestsecond5 either fundamentally misunderstood the original poster's questi
 It is much easier to assume that when the OP asks for opinions of "works with deep writing that you **still** think kinda sucks", that means something that is *both* "complex" and "kinda sucks". Not just any random story you consider overrated because "stans" disagree.
 
 Is it not simply a bad-faith argument to claim that these "stans" represent the general opinion about a work's complexity?
+
+This poster is a "Top 1% Poster", and I think that tells us a lot too. Their brain is so rotted by internet discourse that they forgot how to make good criticism or have actual opinions. Critical consumption shouldn't be about tier lists (yes I know how hypocritical that sounds), it should be about the identification of genuine flaws and good writing.
+
+It's just simply absurd that 
 
 In any case, sloppiestsecond5 is just making a bad claim, defending it with a weak position, and acting like the people that called them out are the stupid ones with their passive-aggressive responses.
 
