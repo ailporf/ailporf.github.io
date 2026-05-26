@@ -64,7 +64,8 @@ They are not using their own opinion to inform what is considered complex, but b
 Why cherry-pick your "critique" based on a presumption of complexity based on the most vocal members of a work's fanbase?
 
 sloppiestsecond5 either fundamentally misunderstood the original poster's question, or they intentionally hijacked the premise to show off their pre-written hate-boner for some popular works (guess which I think they did?).
-<br> It is much easier to assume that when the OP asks for opinions of "works with deep writing that you **still** think kinda sucks", that means something that is *both* "complex" and "kinda sucks". Not just any random story you consider overrated because "stans" disagree.
+
+It is much easier to assume that when the OP asks for opinions of "works with deep writing that you **still** think kinda sucks", that means something that is *both* "complex" and "kinda sucks". Not just any random story you consider overrated because "stans" disagree.
 
 Is it not simply a bad-faith argument to claim that these "stans" represent the general opinion about a work's complexity?
 
