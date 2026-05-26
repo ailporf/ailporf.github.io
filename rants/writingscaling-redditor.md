@@ -7,10 +7,10 @@ hidden: true # make false when ready to post
 # --- Optional Rant Metadata ---
 subheading: "Genuine rant about this one guy on Reddit. Swearing included."
 topic: "Writing, Manga, Internet"  # E.g., Game Design, Writing, Tropes, Tech (Optional)
-read_time: 10            # Estimated read time in minutes (Optional)
+read_time: 15            # Estimated read time in minutes (Optional)
 ---
 
-So I was websurfing as usual when I came across a literal subreddit known as "r/writingscaling". Now, just from that name alone you've probably already realised that this cannot go well, but I was so intrigued that I opened the place and began searching through the posts.
+So I was websurfing as usual when I came across a subreddit called "r/writingscaling". Now, just from that name alone you've probably already realised that this cannot go well, but I was so intrigued that I opened the place and began searching through the posts.
 
 They were mostly dumb stuff like "Bleach vs Naruto, which was better written?" or "Rank these movie lines" or "Vinland Saga vs Rurouni Kenshin, what's better written?"
 
@@ -49,15 +49,44 @@ Let's see what our friend had to say about *Kaoru Hana* (and *Horimiya*) when qu
 
 sloppiestsecond5's hatred for *Kaoru Hana* is so hyperbolic that I don't think they can justify it by saying the works were "just mid to me" or "had flaws that outweighed the pros imo." anymore.
 
-<!-- Insert counter-points to Kaoru Hana rant and bad-fatih argument -->
+Let's start with their critique of *The Fragrant Flower Blooms With Dignity* (AKA Kaoru Hana).
+<br> As all great critics do, they begin with the claim that "fragrant flower is just so fucking ridiculous." Why, you ask?
 
-Promptly after seeing this absolute lobe-melter of a comment, I responded with an expression of my genuine disbelief. 
+Well, it's because Rintaro and Kaoruko's height difference is too large.
 
-![Reddit comment from me saying, "you can't seriously be calling Kaoru Hana "complex"? And HORIMIYA? COMPLEX?"](/assets/images/rants/me.png "I couldn't believe it, guys, really")
+It's 4'10" vs 6'3". Yes, that's big, but that cannot be a genuine critique. People in real life have this kind of height gap. Perhaps all this does is highlight sloppiestsecond5's lack of suspension of disbelief.
+
+Next, we go to a total misinterpretation of the core of the *Kaoru Hana*. The poster claims that the drama is "hilariously disproportionate". Disproportionate to what? To your expectations? 
+<br> *Kaoru Hana* essentially tells the reader that they are going to tell a story about an emotional utopia filled with tears and radical empathy overcoming institutional classism. The setting and genre of the high school romance is simply a vehicle to show how humans ought to act, not how they really do.
+
+Do people call *Romeo and Juliet* realistic? No! No one ever does that!
+
+Because it's not *meant* to be "realistic", it's *meant* to be exaggerated. The impulsivity of teenage love causing real tragedy? That part is realistic. But the escalating string of deaths leading up to a dual-suicide of the main couple? That part is tragic fiction.
+
+In the same vein, *Kaoru Hana* is merely an exaggerated, optimistic subversion of the star-crossed lovers. Simple.
+
+Admittedly, it is somewhat the fault of the fans for being vague about their statements that *Kaoru Hana* is "realistic", because the premise is most definitely not. What *is* realistic is the depiction and mechanism of emotion that the characters display---how exactly Rintaro feels about not being good enough for Kaoruko, or how Kaoruko doesn't want to burden others with her problems.
+
+Oh and of course, the final feminist critique.
+
+"(Kaoruko) Waguri is less of a character and more a reward dispensed to validate Rintaro's growth."---Bet you felt real clever about that one, huh? Kaoruko *is* a character, even if she may be a simple one (which goes against the poster's claim that its complex).
+<br> Kaoruko has "no meaningful flaws"? She literally does (her unwillingness to ask for help) and that's part of her entire conflict! 
+<br> Kaoruko has "no complicated desires"? Untrue, but if it was true, how would that be an issue? A simple desire does not necessarily beget a simple character, ignoring the fact that simple doesn't even mean bad. 
+<br> Kaoruko has "no sense that she exists when the MC leaves the room."? That is just a failure of the imagination, and impatience on behalf of the reader who can't be bothered to wait for a character's slow development and inner conflict.
+
+sloppiestsecond5---after terrible take after terrible take---finishes their rant off with a little jab at Horimiya that really encapsulates their entire media literacy ineptitude.
+
+"people love it and swear it's best romance OAT"---you are 100% allowed to disagree with this (obviously exaggerated) take, sloppiestsecond5, but the fact remains that you brought this up in a post about stories that are considered complex and profound, not stories that are loved but that you think are bad.
+
+You are conflating "best" with "complex", which is one of the single biggest common mistakes in all of modern criticism. You aren't saying that the story is both complex and bad, you are just saying the story isn't actually complex, therefore it's bad.
 
 But of course, it's not over yet.
 
-sloppiestsecond5 responds to every one of the comments (including mine) in their thread with the exact same copy-pasted response:
+After seeing this absolute lobe-melter of a comment, I responded with an expression of my genuine disbelief. 
+
+![Reddit comment from me saying, "you can't seriously be calling Kaoru Hana "complex"? And HORIMIYA? COMPLEX?"](/assets/images/rants/me.png "I couldn't believe it, guys, really")
+
+sloppiestsecond5 then responds to every one of the comments (including mine) in their thread with the exact same copy-pasted response:
 
 ![Reddit comment from sloppiestsecond5 saying, "the stans swear up and down these are like deep ass stories and have all this stuff but ive never found them to be that great so i mentioned them -_-) ?"](/assets/images/rants/holyfuck.png "dude you suuuuck.")
     
@@ -77,10 +106,10 @@ Is it not simply a bad-faith argument to claim that these "stans" represent the 
 
 This poster is a "Top 1% Poster", and I think that tells us a lot too. Their brain is so rotted by internet discourse that they forgot how to make good criticism or have actual opinions. Critical consumption shouldn't be about tier lists (yes I know how hypocritical that sounds), it should be about the identification of genuine flaws and good writing.
 
-It's just simply absurd that 
+It's just simply absurd that someone would genuinely rather abdicate their own critical sovereignty to a bunch of internet "stans" than admit that they got filtered out by a simple story about teenagers being nice to each other.
 
 In any case, sloppiestsecond5 is just making a bad claim, defending it with a weak position, and acting like the people that called them out are the stupid ones with their passive-aggressive responses.
 
-TL;DR - the literacy crisis IS real
+TL;DR - the literacy crisis IS real.
 
-Thanks for reading.
+Thanks for reading!
