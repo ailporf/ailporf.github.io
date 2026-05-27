@@ -52,8 +52,6 @@ If you value realistic characters, internal growth, and having something fluffy 
 
 <!-- This is where you pitch the work. You evaluate the entry barrier, the basic narrative engine, and the production quality. A reader can browse this section completely safely to determine if the story matches their current frequency. -->
 
-write here mans
-
 </div>
 
 <div class="spoiler-gate">
@@ -70,7 +68,7 @@ When you start yelling at the screen and cursing Agasawa for torturing you and y
 
 I talk about this manga like a damn coke addict because of it's sheer *quality* and commitment to realistic character growth, drama, and clever audience manipulation.
 
-*The Ramparts of Ice* follows various main characters over time, but our first, main protagonist is one Koyuki Hikawa. She's an introverted high school girl who has been effectively traumatised through a mixture of unfortunate environmental circumstances and her very own end-of-the-rope decision-making.  
+*The Ramparts of Ice* follows a few main characters over the course of its story. But our smain protagonist is Koyuki Hikawa. She's an introverted high school girl who has been effectively traumatised through a mixture of unfortunate environmental circumstances and her very own end-of-the-rope decision-making.  
 Other characters include the complex Minato Amamiya, a chronic people-pleaser and Koyuki's love interest, Yota Hino, the undisputed **GOAT** of supportive friendships, and Miki Azumi, Koyuki's best friend (and Yota's unreturned crush) who acts as the glue of the whole group.
 
 
