@@ -48,7 +48,7 @@ When I finished reading it, I found myself wondering: "Are there any flaws in th
 And the answer is a genuine: "Nope, none at all."
 
 ### Is it for me?
-If you value realistic characters, internal growth, and having something fluffy that really makes you work for it, then *The Ramparts of Ice* is just for you. Highly recommended for anyone who can appreciate the romcom genre for the "rom" part of it. 
+If you value realistic characters, internal growth, and having something fluffy that really makes you work for it, then *The Ramparts of Ice* is just for you. Highly recommended for anyone who can appreciates an extremely grounded romcom genre. 
 
 <!-- This is where you pitch the work. You evaluate the entry barrier, the basic narrative engine, and the production quality. A reader can browse this section completely safely to determine if the story matches their current frequency. -->
 
