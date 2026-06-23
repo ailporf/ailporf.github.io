@@ -35,17 +35,19 @@ badges:
 ## Spoiler-free
 > **SHAKESPEARE, BUT IT'S A HIGH SCHOOL ROM-COM**  
 
-*The Ramparts of Ice* (Kōri no Jōheki) by Koucha (Tea) Agasawa, is an underrated masterpiece of romance comedy fiction. On the surface, it looks like a slightly darker, typical romcom, but it is in fact a platonically ideal soap opera of dramatically ironic proportions.
+*The Ramparts of Ice* (Kōri no Jōheki) by Koucha (Tea) Agasawa, is an underrated masterpiece of romance comedy fiction. On the surface, it looks like a slightly cynical but topically typical story about a charming fella breaking through the walls of a cold-gazed girl. But after reading for a while, you find yourself squealing at each and every bit of dramatic irony or clever character work, suddenly realising just how **invested** you are.
 
-With a deceptively basic premise and simple (but undoubtedly unique) artstyle, Agasawa shows they understand the words "restriction breeds creativity".  
-Information is planted and grown and harvested at just the right times, sometimes without you even knowing it happened. This is used to create more tension for the narrative engine, and you feel it every time. You feel the building anxiety of the upcoming confrontation, confession or comedic moment. Usually all three in quick succession.
+*Ramparts* is essentially a platonically ideal soap opera.   
+With a deceptively basic premise and simple (but undoubtedly unique) artstyle, Agasawa shows she understand the phrase "restriction breeds creativity".  
+Information is planted twenty chapters beforehand and left to grow in the background until it's time for the harvest. This creates more tension, and you feel it every time. You feel the building anxiety of the upcoming confrontation, confession, or comedic moment. Usually all three in quick succession.  
+I always say the worst thing a story can do is bore you, and what this story does it make you feel things. 
 
 Agasawa is a master of recontextualisation. Specifically, making you feel empathetic toward differing perspectives. Characters you thought to be pure villains are later revealed to be victims themselves, but not blameless ones.  
 She coordinates the wonderfully lovable characters with the expert hands of a puppetmaster and the piercing vision of a 17th century playwright. Seriously, there is practically no wasted time or effort, it all feels incremental to the characters' growth and subsequent success.  
-It's pacing is seamless.
 
 When I finished reading it, I found myself wondering: "Are there any flaws in this story?"  
 And the answer is a genuine: "Nope, none at all."
+
 
 ### Is it for me?
 If you value realistic characters, internal growth, and having something fluffy that really makes you work for it, then *The Ramparts of Ice* is just for you. Highly recommended for anyone who can appreciates an extremely grounded romcom genre. 
