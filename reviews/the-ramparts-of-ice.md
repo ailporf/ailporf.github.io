@@ -13,7 +13,7 @@ first_read_date:  # YYYY-MM-DD (Optional, leave blank if unknown)
 latest_read_date: 2026-05-13  # YYYY-MM-DD (Optional)
 
 # --- LIFECYCLE COMPONENT ---
-tier: "SSS"
+tier: "S"
 engine: "Character-Driven"
 character_logic: "Rigid"
 world_rules: "Hard"
