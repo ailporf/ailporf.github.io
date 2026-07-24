@@ -1,10 +1,10 @@
 ---
 layout: null
-date: 2026-07-24
+date: 2026-07-23
 context: "Miscellaneous" # Optional: gives the reader quick situational framing
 hidden: false # make false when ready to post
 ---
-If i had the power to change the first-world zeitgeist, I'd do a few things:
+If I had the power to change the first-world zeitgeist, I'd do a few things:
 1. make hats and long coats mainstream again
 2. make love letters acceptable again
 3. make dating start with a nonlegal contract stating boundaries and conditions
