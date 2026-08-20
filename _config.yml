@@ -3,3 +3,5 @@ permalink: pretty
 slugify:
   mode: "latin"
   cased: false # <--- This forces all generated slugs to lowercase
+exclude:
+  - archived
