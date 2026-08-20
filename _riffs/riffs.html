@@ -5,7 +5,7 @@ subheading: High-frequency micro-thoughts. 10-150 words.
 ---
 <div class="container">
     <main class="riff-archive-layout">
-        {% assign riffs = site.pages | where_exp: "item", "item.path contains 'riffs/'" | where_exp: "item", "item.path contains '.md'" | sort: "date" | reverse %}
+        {% assign riffs = site.riffs | sort: "date" | reverse %}
         
         {% for riff in riffs %}
             {% unless riff.hidden %}

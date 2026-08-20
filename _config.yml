@@ -5,3 +5,6 @@ slugify:
   cased: false # <--- This forces all generated slugs to lowercase
 exclude:
   - archived
+collections:
+  riffs:
+    output: true
