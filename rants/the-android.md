@@ -12,7 +12,12 @@ read_time: 0            # Estimated read time in minutes (Optional)
 
 I've built the most sophisticated prison possible to imprison specifically myself; it's not a room though - it's a constant, chasing, fleeing **Android** that yells at me, sets up traps, and knows all my weaknesses.
 
-When I was under like 14 years old I just didn't care, in general. Then, sometime during my early high school years, I over-corrected and became a self-hating, self-doubting, overthinking life optimiser. My mindset shifted. I stopped *living* to have fun and started *working* to have fun.
+When I was under like 14 years old I just didn't care, in general. Then, sometime during my early high school years, I over-corrected and became a self-hating, self-doubting, overthinking life optimiser. 
+
+I think it came from a mixture of boredom and shame. The adults in my life always told me to stop playing games and stop playing. I was never encouraged to play until I didn't care for doing it as much as obtaining money or something to be proud of. Everyone in my family was too busy to entertain me, and so I played games. And when I played games, they told me to stop because it was hurting me. They were right, but they didn't give me an alternative. What was I to do?
+Well, I did what I could. I had associated distracting myself with videogames with immorality, and so instead of distracting myself with something people could see and therefore shame, I brought it inside. I started building logic systems, auditing myself, running diagnostic checks on life itself, simulating social dynamics. I did it not because it was healthy, but because it was a way to stay occupied without anyone catching me being "lazy" (AKA bored out of my fucking mind).
+
+My mindset shifted. I stopped *living* to have fun and started *working* to have fun.
 
 The self-doubt became the Android's guard, keeping me in check and making sure I was always doubting myself enough that no one else could do it first.
 The self-hatred became the Android's weapon, the whip to punish me when I couldn't live up to some standard I had setup for myself, whatever that be.
@@ -38,13 +43,13 @@ What other brilliant conclusions did I arrive to in this Android-induced spiral?
 2. "people think i'm so smart, but i'm so stupid"
 3. "i dont see how anyone could possibly solve this. i dont see how they could get out of this. i make rest a job! productivity is the goal here, right? as in, my goal in resting is to later be productive" (literally what I wrote)
 4. is "self-improvement" this? am i improving? i mean, HEALING. am i just, getting better? feeling better? it feels backwards, though, doesnt it? 
-    4a. i want to feel better. 
-    4b. i have now defined a goal.
-    4c. i now have steps i can take to reach that goal.
-    4d. when i am not taking action towards that goal, i am not improving.
-    4e. when i am not improving, i am not feeling better.
-    4f. the goal involves not trying to "produce" or "take action"
-    4g. simply, an error
+    4a. i want to feel better.  
+    4b. i have now defined a goal.  
+    4c. i now have steps i can take to reach that goal.  
+    4d. when i am not taking action towards that goal, i am not improving.  
+    4e. when i am not improving, i am not feeling better.  
+    4f. the goal involves not trying to "produce" or "take action".  
+    4g. simply, an error.  
 
 The key comes thusly:
 Optimisation involves *doing*; healing involves *being*.
