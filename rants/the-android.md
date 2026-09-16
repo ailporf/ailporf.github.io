@@ -7,7 +7,7 @@ hidden: false # make false when ready to post
 # --- Optional Rant Metadata ---
 subheading: " 'I think I'm lonelier than I thought' "
 topic: "Diary"  # E.g., Game Design, Writing, Tropes, Tech (Optional)
-read_time: 0            # Estimated read time in minutes (Optional)
+read_time: 20           # Estimated read time in minutes (Optional)
 ---
 
 I've built the most sophisticated prison possible to imprison specifically myself; it's not a room though - it's a constant, chasing, fleeing **Android** that yells at me, sets up traps, and knows all my weaknesses.
@@ -64,4 +64,5 @@ Remember you are human.
 You are not made for work; you are an animal with a highly advanced brain. Remember the physical body you inhabit. 
 The things you must do to be alive---eat, drink, sleep, heal. 
 And when you rest? Don't confuse it for a requirement to be content. Healing isn't always painless. It's slow, sometimes tense, anxious, terrifying. The Android will yell, it will scream, it will gnaw at you and gnash its teeth. But you must ignore it. You must allow yourself to be, not in a way that's somehow "correct", but simply being. 
-You're allowed to think about whatever you want, except for things that seem to make sense (logic).
+
+You're allowed to think about whatever you want, except for the things that you think are logical.
