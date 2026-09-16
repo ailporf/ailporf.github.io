@@ -5,7 +5,7 @@ date: 2026-09-17
 hidden: false # make false when ready to post
 
 # --- Optional Rant Metadata ---
-subheading: "I think I'm lonelier than I thought"
+subheading: " 'I think I'm lonelier than I thought' "
 topic: "Diary"  # E.g., Game Design, Writing, Tropes, Tech (Optional)
 read_time: 0            # Estimated read time in minutes (Optional)
 ---
@@ -42,7 +42,7 @@ What other brilliant conclusions did I arrive to in this Android-induced spiral?
 1. "modern society is fundamentally poisonous to human minds"
 2. "people think i'm so smart, but i'm so stupid"
 3. "i dont see how anyone could possibly solve this. i dont see how they could get out of this. i make rest a job! productivity is the goal here, right? as in, my goal in resting is to later be productive" (literally what I wrote)
-4. is "self-improvement" this? am i improving? i mean, HEALING. am i just, getting better? feeling better? it feels backwards, though, doesnt it? 
+4. is "self-improvement" this? am i improving? i mean, HEALING. am i just, getting better? feeling better? it feels backwards, though, doesnt it?  
     4a. i want to feel better.  
     4b. i have now defined a goal.  
     4c. i now have steps i can take to reach that goal.  
