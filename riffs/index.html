@@ -2,11 +2,13 @@
 layout: sub-index
 title: RIFFS
 subheading: High-frequency micro-thoughts. 10-150 words.
-paginate: true
 ---
 <div class="container">
     <main class="riff-archive-layout">
-        {% for riff in paginator.posts %}
+        <!-- Pull directly from the _riffs collection -->
+        {% assign riffs = site.riffs | sort: "date" | reverse %}
+        
+        {% for riff in riffs %}
             {% unless riff.hidden %}
                 {% capture current_month %}{{ riff.date | date: "%B %Y" }}{% endcapture %}
                 
@@ -37,27 +39,9 @@ paginate: true
             {% endunless %}
         {% endfor %}
 
-        {% if paginator.posts.size > 0 %}
+        {% if riffs.size > 0 %}
             </div> 
             </section> 
-        {% endif %}
-
-        {% if paginator.total_pages > 1 %}
-        <nav class="pagination-nav">
-            {% if paginator.previous_page %}
-                <a href="{{ paginator.previous_page_path }}" class="pag-btn">&laquo; PREV</a>
-            {% else %}
-                <span class="pag-btn disabled">&laquo; PREV</span>
-            {% endif %}
-
-            <span class="page-number">PAGE {{ paginator.page }} OF {{ paginator.total_pages }}</span>
-
-            {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path }}" class="pag-btn">NEXT &raquo;</a>
-            {% else %}
-                <span class="pag-btn disabled">NEXT &raquo;</span>
-            {% endif %}
-        </nav>
         {% endif %}
     </main>
 </div>
