@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Aureli - RIFFS</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="global-nav">
+    <a href="/" class="nav-logo">AJ Aureli</a>
+    <span class="nav-separator">//</span>
+    <div class="nav-links">
+        <a href="/rants/">RANTS</a>
+        <span class="nav-separator">//</span>
+        <a href="/reviews/">REVIEWS</a>
+        <span class="nav-separator">//</span>
+        <a href="/riffs/">RIFFS</a>
+        
+        <span class="nav-separator nav-right-separator">//</span>
+        <a href="/about/" class="nav-right">ABOUT</a>
+    </div>
+</nav>
+            <h1>RIFFS</h1>
+            
+                <div class="meta-date">High-frequency micro-thoughts. 10-150 words.</div>
+            
+        </header>
+        <main>
+            <div class="container">
+    <main class="riff-archive-layout">
+        
+
+        
+
+        
+    </main>
+</div>
+
+<!-- Instant Client-Side Reordering Script -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('sort-toggle-btn');
+    const stream = document.getElementById('riffs-stream');
+    
+    if (!btn || !stream) return;
+
+    btn.addEventListener('click', () => {
+        const currentOrder = btn.getAttribute('data-order');
+        const newOrder = currentOrder === 'desc' ? 'asc' : 'desc';
+        
+        // Toggle button text
+        btn.setAttribute('data-order', newOrder);
+        btn.textContent = newOrder === 'desc' ? 'NEWEST FIRST [↓]' : 'OLDEST FIRST [↑]';
+
+        // Reorder monthly sections
+        const monthBlocks = Array.from(stream.querySelectorAll('.monthly-riff-block'));
+        monthBlocks.reverse().forEach(block => stream.appendChild(block));
+
+        // Reorder individual cards within each section
+        monthBlocks.forEach(block => {
+            const container = block.querySelector('.riffs-group-container');
+            if (container) {
+                const cards = Array.from(container.querySelectorAll('.archive-riff-card'));
+                cards.reverse().forEach(card => container.appendChild(card));
+            }
+        });
+    });
+});
+</script>
+        </main>
+        <footer>
+            <p>&copy; 2026 AJ Aureli. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

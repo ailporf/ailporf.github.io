@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Aureli - RANTS</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="global-nav">
+    <a href="/" class="nav-logo">AJ Aureli</a>
+    <span class="nav-separator">//</span>
+    <div class="nav-links">
+        <a href="/rants/">RANTS</a>
+        <span class="nav-separator">//</span>
+        <a href="/reviews/">REVIEWS</a>
+        <span class="nav-separator">//</span>
+        <a href="/riffs/">RIFFS</a>
+        
+        <span class="nav-separator nav-right-separator">//</span>
+        <a href="/about/" class="nav-right">ABOUT</a>
+    </div>
+</nav>
+            <h1>RANTS</h1>
+            
+                <div class="meta-date">Unfiltered, stream-of-consciousness rants on any topic that catches my attention. Variable length, but usually 300-2000 words.</div>
+            
+        </header>
+        <main>
+            <div class="search-wrapper">
+    <input type="text" id="index-search" placeholder="Filter by title..." autocomplete="off">
+</div>
+
+<main class="dense-list-layout">
+    
+    
+    <ul class="filterable-list" id="post-list">
+        
+            
+                <li class="dense-post-item" data-title="the android">
+                    <span class="dense-post-date">2026-09-17</span>
+                    <a href="/rants/the-android/" class="dense-post-link">The Android</a>
+                    
+                </li>
+            
+        
+            
+        
+            
+                <li class="dense-post-item" data-title="r/writingscaling is filled with idiot larpers">
+                    <span class="dense-post-date">2026-05-26</span>
+                    <a href="/rants/writingscaling-redditor/" class="dense-post-link">r/writingscaling is filled with idiot larpers</a>
+                    
+                </li>
+            
+        
+            
+                <li class="dense-post-item" data-title="the crappiest crap possible">
+                    <span class="dense-post-date">2026-05-15</span>
+                    <a href="/rants/intentionality/" class="dense-post-link">The Crappiest Crap Possible</a>
+                    
+                </li>
+            
+        
+            
+        
+    </ul>
+</main>
+
+<script>
+    document.getElementById('index-search').addEventListener('input', function(e) {
+        const query = e.target.value.toLowerCase().trim();
+        const items = document.querySelectorAll('.dense-post-item');
+        
+        items.forEach(item => {
+            const title = item.getAttribute('data-title');
+            if (title.includes(query)) {
+                item.style.display = 'flex';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+</script>
+        </main>
+        <footer>
+            <p>&copy; 2026 AJ Aureli. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

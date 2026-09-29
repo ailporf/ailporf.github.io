@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Aureli - REVIEWS</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="global-nav">
+    <a href="/" class="nav-logo">AJ Aureli</a>
+    <span class="nav-separator">//</span>
+    <div class="nav-links">
+        <a href="/rants/">RANTS</a>
+        <span class="nav-separator">//</span>
+        <a href="/reviews/">REVIEWS</a>
+        <span class="nav-separator">//</span>
+        <a href="/riffs/">RIFFS</a>
+        
+        <span class="nav-separator nav-right-separator">//</span>
+        <a href="/about/" class="nav-right">ABOUT</a>
+    </div>
+</nav>
+            <h1>REVIEWS</h1>
+            
+                <div class="meta-date">In-depth, long-form reviews of media, products, and experiences. Includes both spoiler-free rec advice and spoilery analyses. Variable length, but usually 500-2000 words.</div>
+            
+        </header>
+        <main>
+            <div class="search-wrapper">
+    <input type="text" id="index-search" placeholder="Filter by title..." autocomplete="off">
+</div>
+
+<main class="dense-list-layout">
+    
+    
+    <ul class="filterable-list" id="post-list">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </ul>
+</main>
+
+<script>
+    document.getElementById('index-search').addEventListener('input', function(e) {
+        const query = e.target.value.toLowerCase().trim();
+        const items = document.querySelectorAll('.dense-post-item');
+        
+        items.forEach(item => {
+            const title = item.getAttribute('data-title');
+            if (title.includes(query)) {
+                item.style.display = 'flex';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+</script>
+        </main>
+        <footer>
+            <p>&copy; 2026 AJ Aureli. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
