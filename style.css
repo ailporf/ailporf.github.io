@@ -223,6 +223,13 @@ p {
     font-family: monospace;
 }
 
+.review-catalog-tier {
+    flex: 0 0 auto;
+    font-size: 0.8rem;
+    line-height: 1.2;
+    padding: 1px 5px;
+}
+
 /* Color matrix for Tier states */
 .tier-sss { color: #20ffff; }
 .tier-s { color: #ff7878; }

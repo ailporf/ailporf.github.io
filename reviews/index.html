@@ -16,6 +16,9 @@ subheading: Long-form reviews of stories, media, products, and experiences.
                 <li class="dense-post-item" data-title="{{ post.title | downcase | escape }}">
                     <span class="dense-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
                     <a href="{{ post.url }}" class="dense-post-link">{{ post.title }}</a>
+                    {% if post.tier %}
+                        <span class="tier-badge tier-{{ post.tier | downcase }} review-catalog-tier" aria-label="Tier {{ post.tier | upcase }}" title="Tier {{ post.tier | upcase }}">{{ post.tier | upcase }}</span>
+                    {% endif %}
                     {% if post.status %}
                         <span class="dense-badge {{ post.status | downcase }}">{{ post.status }}</span>
                     {% endif %}
