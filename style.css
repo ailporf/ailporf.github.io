@@ -21,14 +21,6 @@
     margin-bottom: 40px;
 }
 
-.nav-logo {
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
 .nav-links {
     display: flex;
     align-items: center;
@@ -49,16 +41,6 @@
 .nav-separator {
     color: var(--border-color);
     user-select: none; /* Prevents users from accidentally selecting the slashes when highlighting text */
-}
-
-/* --- FAR-RIGHT ALIGNMENT ENGINE --- */
-.nav-right-separator {
-    margin-left: auto;
-}
-
-.nav-right {
-    text-transform: uppercase;
-    font-weight: bold;
 }
 
 /* --- BASE STYLES --- */
@@ -122,14 +104,7 @@ p {
     font-size: 1.05rem;
 }
 
-/* --- THE 60/40 GRID LAYOUT (HOMEPAGE/DEFAULT) --- */
-.layout-grid {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr; 
-    gap: 60px;
-    align-items: start;
-}
-
+/* --- REVIEW CONTENT HEADINGS --- */
 .column-main h2 {
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -151,38 +126,6 @@ p {
     color: #ffffff;
     margin-top: 0;
     margin-bottom: 20px;
-}
-
-.recent-posts-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.recent-posts-list li {
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column; /* Forces the date to drop under the link */
-    gap: 4px;               /* Clean micro-gap between title and date */
-}
-
-.recent-posts-list li a {
-    font-size: 0.95rem;
-    font-weight: 500;                            /* Gives it a clean, intentional weight */
-    text-decoration: none;                       /* Hides the ugly static default underline */
-    color: var(--link-color, #ffffff);
-    transition: text-decoration 0.2s ease;
-}
-
-.recent-posts-list li a:hover {
-    text-decoration: underline;                  /* Brings back your hover indicator */
-    color: var(--link-hover-color, var(--accent-color));
-}
-
-.recent-posts-list .post-date {
-    font-size: 0.8rem;
-    color: var(--meta-text);
-    font-family: monospace;
 }
 
 /* --- ISOLATED FLUID REVIEW ENGINE (SPECIFIC MODIFIER) --- */
@@ -346,12 +289,6 @@ p {
 
 /* --- RESPONSIVE MOBILE FIX --- */
 @media (max-width: 768px) {
-    /* Stack the columns vertically on tablets/phones */
-    .layout-grid {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-    
     .column-sidebar {
         border-left: none;
         border-top: 1px solid var(--border-color);
@@ -390,7 +327,7 @@ p {
     .nav-links {
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(4, 1fr); /* 4 perfect, equal-width columns */
+        grid-template-columns: repeat(3, 1fr);
         gap: 0;
         border: 1px solid var(--border-color);
         text-align: center;
@@ -695,6 +632,28 @@ p {
     border-bottom: none;
 }
 
+.dense-post-item[hidden] {
+    display: none;
+}
+
+.empty-state {
+    color: var(--meta-text);
+    font-family: monospace;
+}
+
+.archive-section + .archive-section {
+    margin-top: 56px;
+}
+
+.archive-section > h2 {
+    font-family: monospace;
+    font-size: 1.3rem;
+    color: #ffffff;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
 .dense-post-date {
     font-family: monospace;
     font-size: 0.85rem;
@@ -712,6 +671,13 @@ p {
 .dense-post-link:hover {
     color: var(--accent-color);
     text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .dense-post-item {
+        flex-wrap: wrap;
+        gap: 4px 12px;
+    }
 }
 
 .dense-badge {

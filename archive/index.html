@@ -1,0 +1,104 @@
+---
+layout: sub-index
+title: ARCHIVE
+subheading: Rants and short-form riffs.
+---
+<div class="archive-layout">
+    <section class="archive-section" id="rants">
+        <h2>RANTS</h2>
+        {% assign rants = site.pages | where_exp: "item", "item.path contains 'rants/'" | where_exp: "item", "item.path contains '.md'" | sort: "date" | reverse %}
+        <ul class="filterable-list">
+            {% for post in rants %}
+                {% unless post.hidden %}
+                    <li class="dense-post-item">
+                        <span class="dense-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                        <a href="{{ post.url }}" class="dense-post-link">{{ post.title }}</a>
+                    </li>
+                {% endunless %}
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section class="archive-section" id="riffs">
+        <h2>RIFFS</h2>
+        <div class="riff-archive-layout" id="riff-archive" data-page-size="{{ site.paginate | default: 10 }}">
+            {% assign riffs = site.riffs | sort: "date" | reverse %}
+            {% assign visible_riffs = 0 %}
+            {% for riff in riffs %}
+                {% unless riff.hidden %}
+                    {% capture current_month %}{{ riff.date | date: "%B %Y" }}{% endcapture %}
+                    {% if current_month != last_month %}
+                        {% if last_month %}
+                            </div>
+                            </section>
+                        {% endif %}
+                        <section class="monthly-riff-block">
+                            <h3 class="month-heading">{{ current_month }}</h3>
+                            <div class="riffs-group-container">
+                    {% endif %}
+                    <article class="archive-riff-card">
+                        <div class="archive-riff-meta">
+                            <time class="riff-time" datetime="{{ riff.date | date: '%Y-%m-%d' }}">{{ riff.date | date: "%e %B" }}</time>
+                            {% if riff.context %}
+                                <span class="riff-context">// {{ riff.context }}</span>
+                            {% endif %}
+                        </div>
+                        <div class="riff-content">
+                            {{ riff.content | markdownify }}
+                        </div>
+                    </article>
+                    {% capture last_month %}{{ current_month }}{% endcapture %}
+                    {% assign visible_riffs = visible_riffs | plus: 1 %}
+                {% endunless %}
+            {% endfor %}
+            {% if visible_riffs > 0 %}
+                </div>
+                </section>
+            {% else %}
+                <p class="empty-state">No riffs are currently published.</p>
+            {% endif %}
+            <nav class="pagination-nav" id="riff-pagination" aria-label="Riff archive pages" hidden></nav>
+        </div>
+    </section>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const archive = document.getElementById('riff-archive');
+    const pagination = document.getElementById('riff-pagination');
+    if (!archive || !pagination) return;
+
+    const cards = Array.from(archive.querySelectorAll('.archive-riff-card'));
+    const pageSize = Number.parseInt(archive.dataset.pageSize, 10) || 10;
+    const pageCount = Math.ceil(cards.length / pageSize);
+    if (pageCount < 2) return;
+
+    const requestedPage = Number.parseInt(new URLSearchParams(window.location.search).get('page'), 10) || 1;
+    const currentPage = Math.min(Math.max(requestedPage, 1), pageCount);
+    const firstCard = (currentPage - 1) * pageSize;
+
+    cards.forEach((card, index) => {
+        card.hidden = index < firstCard || index >= firstCard + pageSize;
+    });
+    archive.querySelectorAll('.monthly-riff-block').forEach(section => {
+        section.hidden = !section.querySelector('.archive-riff-card:not([hidden])');
+    });
+
+    const addPageLink = (label, page) => {
+        const link = document.createElement('a');
+        link.className = 'pag-btn';
+        link.href = `?page=${page}#riffs`;
+        link.textContent = label;
+        pagination.append(link);
+    };
+
+    if (currentPage > 1) addPageLink('← Newer', currentPage - 1);
+    const pageNumber = document.createElement('span');
+    pageNumber.className = 'page-number';
+    pageNumber.textContent = `Page ${currentPage} of ${pageCount}`;
+    pageNumber.setAttribute('aria-current', 'page');
+    pagination.append(pageNumber);
+    if (currentPage < pageCount) addPageLink('Older →', currentPage + 1);
+    pagination.hidden = false;
+});
+</script>

@@ -8,8 +8,4 @@ exclude:
 collections:
   riffs:
     output: true
-plugins:
-  - jekyll-paginate
-
 paginate: 10
-paginate_path: "/riffs/page:num/"
