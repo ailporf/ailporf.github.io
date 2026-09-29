@@ -623,6 +623,34 @@ p {
     color: #ffffff;
 }
 
+.sort-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+    font-family: monospace;
+    font-size: 0.85rem;
+}
+
+.sort-label {
+    color: var(--meta-text, #888);
+}
+
+.sort-btn {
+    background: transparent;
+    border: 1px solid var(--border-color, #333);
+    color: var(--text-color, #fff);
+    padding: 4px 10px;
+    font-family: monospace;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.sort-btn:hover {
+    background: var(--border-color, #333);
+}
+
 /* --- SEARCH & DENSE LIST SYSTEM --- */
 .search-wrapper {
     margin-top: 20px;

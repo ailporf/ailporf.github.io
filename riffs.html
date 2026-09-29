@@ -5,6 +5,13 @@ subheading: High-frequency micro-thoughts. 10-150 words.
 ---
 <div class="container">
     <main class="riff-archive-layout">
+        <!-- Sort Control Bar -->
+        <div class="sort-controls">
+            <span class="sort-label">ORDER:</span>
+            <button id="sort-toggle-btn" class="sort-btn" data-order="desc">NEWEST FIRST [↓]</button>
+        </div>
+
+        <div id="riffs-stream">
         {% assign riffs = site.riffs | sort: "date" | reverse %}
         
         {% for riff in riffs %}
@@ -17,12 +24,12 @@ subheading: High-frequency micro-thoughts. 10-150 words.
                         </section> 
                     {% endif %}
                     
-                    <section class="monthly-riff-block">
+                    <section class="monthly-riff-block" data-date="{{ riff.date | date: '%Y-%m' }}">
                         <h2 class="month-heading">{{ current_month }}</h2>
                         <div class="riffs-group-container">
                 {% endif %}
                 
-                <article class="archive-riff-card">
+                <article class="archive-riff-card" data-timestamp="{{ riff.date | date: '%s' }}">
                     <div class="archive-riff-meta">
                         <span class="riff-time">{{ riff.date | date: "%e %B" }}</span> 
                         {% if riff.context %}
@@ -42,5 +49,38 @@ subheading: High-frequency micro-thoughts. 10-150 words.
             </div> 
             </section> 
         {% endif %}
+        </div>
     </main>
 </div>
+
+<!-- Instant Client-Side Reordering Script -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('sort-toggle-btn');
+    const stream = document.getElementById('riffs-stream');
+    
+    if (!btn || !stream) return;
+
+    btn.addEventListener('click', () => {
+        const currentOrder = btn.getAttribute('data-order');
+        const newOrder = currentOrder === 'desc' ? 'asc' : 'desc';
+        
+        // Toggle button text
+        btn.setAttribute('data-order', newOrder);
+        btn.textContent = newOrder === 'desc' ? 'NEWEST FIRST [↓]' : 'OLDEST FIRST [↑]';
+
+        // Reorder monthly sections
+        const monthBlocks = Array.from(stream.querySelectorAll('.monthly-riff-block'));
+        monthBlocks.reverse().forEach(block => stream.appendChild(block));
+
+        // Reorder individual cards within each section
+        monthBlocks.forEach(block => {
+            const container = block.querySelector('.riffs-group-container');
+            if (container) {
+                const cards = Array.from(container.querySelectorAll('.archive-riff-card'));
+                cards.reverse().forEach(card => container.appendChild(card));
+            }
+        });
+    });
+});
+</script>
