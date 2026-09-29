@@ -4,7 +4,7 @@ title: RIFFS
 subheading: High-frequency micro-thoughts. 10-150 words.
 ---
 <div class="container">
-    <main class="riff-archive-layout">
+    <main class="riff-archive-layout" id="riff-archive" data-page-size="{{ site.paginate | default: 10 }}">
         <!-- Pull directly from the _riffs collection -->
         {% assign riffs = site.riffs | sort: "date" | reverse %}
         
@@ -43,37 +43,52 @@ subheading: High-frequency micro-thoughts. 10-150 words.
             </div> 
             </section> 
         {% endif %}
+
+        <nav class="pagination-nav" id="riff-pagination" aria-label="RIFF archive pages" hidden></nav>
     </main>
 </div>
 
-<!-- Instant Client-Side Reordering Script -->
+<!-- Progressive pagination keeps the complete archive available without JavaScript. -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    const btn = document.getElementById('sort-toggle-btn');
-    const stream = document.getElementById('riffs-stream');
-    
-    if (!btn || !stream) return;
+    const archive = document.getElementById('riff-archive');
+    const pagination = document.getElementById('riff-pagination');
+    if (!archive || !pagination) return;
 
-    btn.addEventListener('click', () => {
-        const currentOrder = btn.getAttribute('data-order');
-        const newOrder = currentOrder === 'desc' ? 'asc' : 'desc';
-        
-        // Toggle button text
-        btn.setAttribute('data-order', newOrder);
-        btn.textContent = newOrder === 'desc' ? 'NEWEST FIRST [↓]' : 'OLDEST FIRST [↑]';
+    const cards = Array.from(archive.querySelectorAll('.archive-riff-card'));
+    const pageSize = Number.parseInt(archive.dataset.pageSize, 10) || 10;
+    const pageCount = Math.ceil(cards.length / pageSize);
+    if (pageCount < 2) return;
 
-        // Reorder monthly sections
-        const monthBlocks = Array.from(stream.querySelectorAll('.monthly-riff-block'));
-        monthBlocks.reverse().forEach(block => stream.appendChild(block));
+    const requestedPage = Number.parseInt(new URLSearchParams(window.location.search).get('page'), 10) || 1;
+    const currentPage = Math.min(Math.max(requestedPage, 1), pageCount);
+    const firstCard = (currentPage - 1) * pageSize;
 
-        // Reorder individual cards within each section
-        monthBlocks.forEach(block => {
-            const container = block.querySelector('.riffs-group-container');
-            if (container) {
-                const cards = Array.from(container.querySelectorAll('.archive-riff-card'));
-                cards.reverse().forEach(card => container.appendChild(card));
-            }
-        });
+    cards.forEach((card, index) => {
+        card.hidden = index < firstCard || index >= firstCard + pageSize;
     });
+
+    archive.querySelectorAll('.monthly-riff-block').forEach(section => {
+        section.hidden = !section.querySelector('.archive-riff-card:not([hidden])');
+    });
+
+    const addPageLink = (label, page) => {
+        const link = document.createElement('a');
+        link.className = 'pag-btn';
+        link.href = `?page=${page}#riff-archive`;
+        link.textContent = label;
+        pagination.append(link);
+    };
+
+    if (currentPage > 1) addPageLink('← Newer', currentPage - 1);
+
+    const pageNumber = document.createElement('span');
+    pageNumber.className = 'page-number';
+    pageNumber.textContent = `Page ${currentPage} of ${pageCount}`;
+    pageNumber.setAttribute('aria-current', 'page');
+    pagination.append(pageNumber);
+
+    if (currentPage < pageCount) addPageLink('Older →', currentPage + 1);
+    pagination.hidden = false;
 });
 </script>
