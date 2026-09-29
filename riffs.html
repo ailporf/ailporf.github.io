@@ -7,7 +7,7 @@ subheading: High-frequency micro-thoughts. 10-150 words.
     <main class="riff-archive-layout">
         {% assign riffs = site.riffs | sort: "date" | reverse %}
         
-        {% for riff in riffs %}
+        {% for riff in site.riffs %}
             {% unless riff.hidden %}
                 {% capture current_month %}{{ riff.date | date: "%B %Y" }}{% endcapture %}
                 
