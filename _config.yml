@@ -9,12 +9,7 @@ collections:
   riffs:
     output: true
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
-pagination:
-  enabled: true
-  collection: 'riffs'     # Points directly to your _riffs collection
-  per_page: 10            # Number of riffs per page
-  permalink: '/riffs/page/:num/'  # Output path structure
-  sort_field: 'date'
-  sort_reverse: true      # Newest first
+paginate: 10
+paginate_path: "/riffs/page:num/"

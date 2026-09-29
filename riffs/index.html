@@ -2,13 +2,10 @@
 layout: sub-index
 title: RIFFS
 subheading: High-frequency micro-thoughts. 10-150 words.
-pagination:
-  enabled: true
-  collection: riffs
+paginate: true
 ---
 <div class="container">
     <main class="riff-archive-layout">
-        <!-- Loop through ONLY the riffs for the current paginated page -->
         {% for riff in paginator.posts %}
             {% unless riff.hidden %}
                 {% capture current_month %}{{ riff.date | date: "%B %Y" }}{% endcapture %}
@@ -45,7 +42,6 @@ pagination:
             </section> 
         {% endif %}
 
-        <!-- Static Page Controls -->
         {% if paginator.total_pages > 1 %}
         <nav class="pagination-nav">
             {% if paginator.previous_page %}
