@@ -2,19 +2,14 @@
 layout: sub-index
 title: RIFFS
 subheading: High-frequency micro-thoughts. 10-150 words.
+pagination:
+  enabled: true
+  collection: riffs
 ---
 <div class="container">
     <main class="riff-archive-layout">
-        <!-- Sort Control Bar -->
-        <div class="sort-controls">
-            <span class="sort-label">ORDER:</span>
-            <button id="sort-toggle-btn" class="sort-btn" data-order="desc">NEWEST FIRST [↓]</button>
-        </div>
-
-        <div id="riffs-stream">
-        {% assign riffs = site.riffs | sort: "date" | reverse %}
-        
-        {% for riff in riffs %}
+        <!-- Loop through ONLY the riffs for the current paginated page -->
+        {% for riff in paginator.posts %}
             {% unless riff.hidden %}
                 {% capture current_month %}{{ riff.date | date: "%B %Y" }}{% endcapture %}
                 
@@ -24,12 +19,12 @@ subheading: High-frequency micro-thoughts. 10-150 words.
                         </section> 
                     {% endif %}
                     
-                    <section class="monthly-riff-block" data-date="{{ riff.date | date: '%Y-%m' }}">
+                    <section class="monthly-riff-block">
                         <h2 class="month-heading">{{ current_month }}</h2>
                         <div class="riffs-group-container">
                 {% endif %}
                 
-                <article class="archive-riff-card" data-timestamp="{{ riff.date | date: '%s' }}">
+                <article class="archive-riff-card">
                     <div class="archive-riff-meta">
                         <span class="riff-time">{{ riff.date | date: "%e %B" }}</span> 
                         {% if riff.context %}
@@ -45,11 +40,29 @@ subheading: High-frequency micro-thoughts. 10-150 words.
             {% endunless %}
         {% endfor %}
 
-        {% if riffs.size > 0 %}
+        {% if paginator.posts.size > 0 %}
             </div> 
             </section> 
         {% endif %}
-        </div>
+
+        <!-- Static Page Controls -->
+        {% if paginator.total_pages > 1 %}
+        <nav class="pagination-nav">
+            {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="pag-btn">&laquo; PREV</a>
+            {% else %}
+                <span class="pag-btn disabled">&laquo; PREV</span>
+            {% endif %}
+
+            <span class="page-number">PAGE {{ paginator.page }} OF {{ paginator.total_pages }}</span>
+
+            {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="pag-btn">NEXT &raquo;</a>
+            {% else %}
+                <span class="pag-btn disabled">NEXT &raquo;</span>
+            {% endif %}
+        </nav>
+        {% endif %}
     </main>
 </div>
 

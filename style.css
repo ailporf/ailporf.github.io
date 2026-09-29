@@ -651,6 +651,39 @@ p {
     background: var(--border-color, #333);
 }
 
+.pagination-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px dashed var(--border-color, #333);
+    font-family: monospace;
+    font-size: 0.85rem;
+}
+
+.pag-btn {
+    background: transparent;
+    border: 1px solid var(--border-color, #333);
+    color: var(--text-color, #fff);
+    padding: 6px 12px;
+    text-decoration: none;
+    transition: background 0.15s ease;
+}
+
+.pag-btn:hover:not(.disabled) {
+    background: var(--border-color, #333);
+}
+
+.pag-btn.disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.page-number {
+    color: var(--meta-text, #888);
+}
+
 /* --- SEARCH & DENSE LIST SYSTEM --- */
 .search-wrapper {
     margin-top: 20px;
