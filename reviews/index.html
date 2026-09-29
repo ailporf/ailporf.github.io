@@ -1,12 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=/#reviews">
-    <link rel="canonical" href="/#reviews">
-    <title>Reviews moved to Home</title>
-</head>
-<body>
-    <p>The review catalogue is now on <a href="/#reviews">Home</a>.</p>
-</body>
-</html>
+---
+layout: sub-index
+title: REVIEWS
+subheading: Long-form reviews of stories, media, products, and experiences.
+---
+<section class="dense-list-layout" aria-label="Review catalogue">
+    <div class="search-wrapper">
+        <input type="search" id="index-search" placeholder="Filter reviews by title..." aria-label="Filter reviews by title" autocomplete="off">
+    </div>
+
+    {% assign posts = site.pages | where_exp: "item", "item.path contains 'reviews/'" | where_exp: "item", "item.path contains '.md'" | sort: "date" | reverse %}
+    {% assign visible_reviews = 0 %}
+    <ul class="filterable-list" id="post-list">
+        {% for post in posts %}
+            {% unless post.hidden %}
+                <li class="dense-post-item" data-title="{{ post.title | downcase | escape }}">
+                    <span class="dense-post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                    <a href="{{ post.url }}" class="dense-post-link">{{ post.title }}</a>
+                    {% if post.status %}
+                        <span class="dense-badge {{ post.status | downcase }}">{{ post.status }}</span>
+                    {% endif %}
+                </li>
+                {% assign visible_reviews = visible_reviews | plus: 1 %}
+            {% endunless %}
+        {% endfor %}
+    </ul>
+    {% if visible_reviews == 0 %}
+        <p class="empty-state">No reviews are currently published.</p>
+    {% endif %}
+</section>
+
+<script>
+    document.getElementById('index-search').addEventListener('input', function(event) {
+        const query = event.target.value.toLowerCase().trim();
+        document.querySelectorAll('.dense-post-item').forEach(item => {
+            item.hidden = !item.dataset.title.includes(query);
+        });
+    });
+</script>
